@@ -1,1 +1,3 @@
-img/psd/*.psd
+img/*.psd
+img/prep/
+.sass-cache/

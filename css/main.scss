@@ -4,29 +4,47 @@
 @charset "utf-8";
 
 
+/**
+ * Variables
+ */
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// Fonts
+$arial: Arial, Helvetica, sans-serif;
+$helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$gill: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 
-$spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// Colours
+$charcoal: #202020;
+$dark-grey: #454545;
+$grey: #888888;
+$light-grey: #a9a9a9;
+$lightest-grey: #c8c8c8;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$navy: #031a37;
+$dark-blue: #0f3567;
+$blue: #195818;
+$light-blue: #75a5e3;
+$lightest-blue: #b4d1f4;
 
-// Width of the content area
-$content-width:    800px;
+$burnt-orange: #95460c;
+$dark-orange: #be611c;
+$orange: #ef7921;
+$light-orange: #f79c58;
+$lightest-orange: #f6c29a;
 
-$on-palm:          600px;
-$on-laptop:        800px;
 
+/**
+ * Mixins
+ */
+
+
+
+
+
+/**
+ * Mobile Mixins
+ */
 
 
 // Using media queries with like this:
@@ -44,7 +62,6 @@ $on-laptop:        800px;
 
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
