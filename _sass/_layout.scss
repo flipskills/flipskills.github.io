@@ -2,7 +2,35 @@
  * Site header
  */
 
-
+.site-header {
+	.wrapper {
+		#top-bar {
+			background-color: $grey;
+			img {
+				width: 2em;
+				height: auto;
+				margin-left: 1em;
+				padding: .2em;
+			}
+		}
+	}
+	.navbar {
+		background-color: #fff;
+		border: none;
+		.navbar-brand {
+			#logo {
+				margin-top: .5em;
+			}
+		}
+		.navbar-right {
+			li {
+				a {
+					padding: 0 .5em;
+				}
+			}
+		}
+	}
+}
 
 
 
