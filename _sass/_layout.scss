@@ -23,7 +23,6 @@
 				}
 			}
 			.navbar-header {
-				height: 100%;
 			}
 			.navbar-right {
 				li {
@@ -50,4 +49,43 @@
 /**
  * Footer
  */
+
+.site-footer {
+	.connect-wrapper {
+		padding: 6em 0;
+		border-top: 0.1em $light-grey solid;
+		border-bottom: 0.1em $light-grey solid;
+		h3 {
+		    font-family: $gill;
+		    color: $dark-grey;
+		}
+		.smedia {
+			padding-bottom: 6em;
+			img {
+				width: 4em;
+				height: auto;
+			}
+		}
+		form {
+			input {
+				text-align: center;
+				padding: .4em;
+			}
+			.email {
+				border: 0.2em $dark-grey solid;
+				margin: 0 1em;
+			}
+			.button {
+				background-color: $navy;
+				color: #fff;
+				border: 0.2em $navy solid;
+			}
+		}
+	}
+}
+
+
+
+
+
 
