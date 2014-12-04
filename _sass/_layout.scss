@@ -3,8 +3,8 @@
  */
 
 .site-header {
-	.wrapper {
-		#top-bar {
+	height: 100%;
+	#top-bar {
 			background-color: $grey;
 			img {
 				width: 2em;
@@ -13,19 +13,24 @@
 				padding: .2em;
 			}
 		}
-	}
-	.navbar {
-		background-color: #fff;
-		border: none;
-		.navbar-brand {
-			#logo {
-				margin-top: .5em;
+	.wrapper {
+		.navbar {
+			background-color: #fff;
+			border: none;
+			.navbar-brand {
+				#logo {
+					margin-top: .5em;
+				}
 			}
-		}
-		.navbar-right {
-			li {
-				a {
-					padding: 0 .5em;
+			.navbar-header {
+				height: 100%;
+			}
+			.navbar-right {
+				li {
+					float: right;
+					a {
+						padding: 0 .5em;
+					}
 				}
 			}
 		}
