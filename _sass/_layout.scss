@@ -82,6 +82,21 @@
 			}
 		}
 	}
+	.address-wrapper {
+		padding: 6em 0;
+		h4 {
+			color: $navy;
+		}
+		p {
+			color: $grey;
+			font-family: $arial;
+			margin: 0;
+			letter-spacing: 0.05em;
+		}
+		.description {
+			color: $charcoal;
+		}
+	}
 }
 
 
