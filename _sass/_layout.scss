@@ -123,9 +123,31 @@
 	.engage-us-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
+		font-family: $gill;
 		h3 {
 			text-align: center;
-			margin-bottom: 5em;
+			margin-bottom: 2.5em;
+			color: $dark-grey;
+		}
+		p {
+			margin-bottom: 2.5em;
+			color: $grey;
+		}
+		h4 {
+			color: $charcoal;
+		}
+		.inverse {
+			text-align: right;
+		}
+	}
+	.meet-us-section {
+		padding: 5em 0;
+		border-top: 0.1em $light-grey solid;
+		font-family: $gill;
+		h3 {
+			text-align: center;
+			margin-bottom: 2.5em;
+			color: $dark-grey;
 		}
 	}
 }
