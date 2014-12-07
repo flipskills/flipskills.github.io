@@ -11,6 +11,7 @@ address: > # this means to ignore newlines until "url:"
   Toronto, ON
   Canada
 url: "http://www.flipskills.com/" # the base hostname & protocol for your site
+baseurl: ""
 twitter: 
 facebook: 
 linkin: https://www.linkedin.com/company/flipskills-consulting
