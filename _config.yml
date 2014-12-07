@@ -12,9 +12,6 @@ address: > # this means to ignore newlines until "url:"
   Canada
 url: "http://www.flipskills.com/" # the base hostname & protocol for your site
 baseurl: "/LIHTS"
-twitter: 
-facebook: 
-linkin: https://www.linkedin.com/company/flipskills-consulting
 
 # Build settings
 markdown: kramdown
