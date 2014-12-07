@@ -80,7 +80,52 @@
 				color: #fff;
 				background-color: $navy;
 				border: none;
+				padding: .5em;
+				font-family: $arial;
 			}
+		}
+	}
+	.endorsements-section {
+		padding: 5em 0;
+		border-top: 0.1em $light-grey solid;
+		background-image: url("../images/graphics/quote-marks.png");
+		background-repeat: no-repeat;
+		p {
+			color: $grey;
+			font-family: $gill;
+			margin-bottom: 0;
+			font-size: .9em;
+			padding-left: 2em;
+		}
+		#author {
+			color: $dark-blue;
+			margin-bottom: 4em;
+		}
+		a {
+			text-align: center;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	.flip-quote-section {
+		padding: 5em 0;
+		border-top: 0.1em $light-grey solid;
+		text-align: center;
+		img {
+			padding: 0 2em;
+		}
+		h4 {
+			color: $navy;
+			font-family: $gill;
+		}
+	}
+	.engage-us-section {
+		padding: 5em 0;
+		border-top: 0.1em $light-grey solid;
+		h3 {
+			text-align: center;
+			margin-bottom: 5em;
 		}
 	}
 }
@@ -120,6 +165,7 @@
 				background-color: $navy;
 				color: #fff;
 				border: 0.2em $navy solid;
+				font-family: $arial;
 			}
 		}
 	}
