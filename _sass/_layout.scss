@@ -144,10 +144,40 @@
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
 		font-family: $gill;
+		color: $grey;
 		h3 {
 			text-align: center;
 			margin-bottom: 2.5em;
 			color: $dark-grey;
+		}
+		p {
+			padding-top: 1em;
+		}
+		img {
+			padding: .5em;
+		}
+	}
+	.why-followership-section {
+		padding: 5em 0;
+		border-top: 0.1em $light-grey solid;
+		font-family: $gill;
+		color: $grey;
+		h3 {
+			text-align: center;
+			margin-bottom: 2.5em;
+			color: $dark-grey;
+		}
+		h5 {
+			color: $dark-grey;
+		}
+		img {
+			z-index: -1;
+			position: relative; 
+  	 		width: 100%;
+		}
+		.text-wrapper {
+			position: absolute;
+			top: 12em;
 		}
 	}
 }
