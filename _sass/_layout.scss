@@ -3,7 +3,6 @@
  */
 
 .site-header {
-	height: 100%;
 	#top-bar {
 			background-color: $grey;
 			img {
@@ -14,6 +13,9 @@
 			}
 		}
 	.wrapper {
+			padding: 1em 0 3em;
+			border-bottom: .3em $dark-grey solid;
+			box-shadow: 0 .5em 0 $grey;
 		.navbar {
 			background-color: #fff;
 			border: none;
@@ -42,7 +44,46 @@
  * Index
  */
 
-
+.home {
+	.subtitle {
+		padding: 3em 0;
+		p {
+			color: $charcoal;
+			text-align: justify;
+			font-size: 1.3em;
+			font-family: $gill;
+			line-height: 1.3em;
+			padding: 0px 1em;
+			span {
+				font-size: 1.1em;
+				letter-spacing: .1em;
+			}
+		}
+	}
+	.book-section {
+		padding: 3em 0;
+		color: $grey;
+		text-align: justify;
+		font-family: $gill;
+		.book-description {
+			margin-top: 2em;
+		}
+		.book-image {
+			img {
+				padding-bottom: 1em;
+			}
+		}
+		.book-buttons {
+			button {
+				width: 100%;
+				border-radius: 0;
+				color: #fff;
+				background-color: $navy;
+				border: none;
+			}
+		}
+	}
+}
 
 
 
