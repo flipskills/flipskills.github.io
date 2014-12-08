@@ -1,27 +1,27 @@
 /**
  * Site header
  */
-
-//Below is quite a drastic change
 @media (max-width: 800px) {
-  .site-header {
-		height: 100%;
-		#top-bar {
-			background-color: $grey;
-			img {
-				width: 2em;
-				height: auto;
-				margin-left: 1em;
-				padding: .2em;
-			}
-		}
+	.site-header {
 		.wrapper {
+				padding: 0;
+				border-bottom: 1em $navy solid;
+				box-shadow: none;
 			.navbar {
-				background-color: #fff;
-				border: none;
+				button {
+					border: none;
+					#menu {
+						width: 3.5em;
+					}
+				}
 				.navbar-brand {
-					#logo {
-						margin-top: .5em;
+					padding: 0;
+					a {
+						padding: 0;
+						// Below not working. Please debug
+						#logo {
+							content:url(../images/logo/logo.png);
+						}
 					}
 				}
 				.navbar-header {
@@ -40,13 +40,149 @@
 }
 
 
-
-
 /**
- * Home
+ * Index
  */
+@media (max-width: 800px) {
 
-
+	.home {
+		.subtitle {
+			padding: 3em 0;
+			p {
+				color: $charcoal;
+				text-align: justify;
+				font-size: 1.3em;
+				font-family: $gill;
+				line-height: 1.3em;
+				padding: 0px 1em;
+				span {
+					font-size: 1.1em;
+					letter-spacing: .1em;
+				}
+			}
+		}
+		.book-section {
+			padding: 3em 0;
+			color: $grey;
+			text-align: justify;
+			font-family: $gill;
+			.book-description {
+				margin-top: 2em;
+			}
+			.book-image {
+				img {
+					padding-bottom: 1em;
+				}
+			}
+			.book-buttons {
+				button {
+					width: 100%;
+					border-radius: 0;
+					color: #fff;
+					background-color: $navy;
+					border: none;
+					padding: .5em;
+					font-family: $arial;
+				}
+			}
+		}
+		.endorsements-section {
+			padding: 5em 0;
+			border-top: 0.1em $light-grey solid;
+			background-image: url("../images/graphics/quote-marks.png");
+			background-repeat: no-repeat;
+			p {
+				color: $grey;
+				font-family: $gill;
+				margin-bottom: 0;
+				font-size: .9em;
+				padding-left: 2em;
+			}
+			#author {
+				color: $dark-blue;
+				margin-bottom: 4em;
+			}
+			a {
+				text-align: center;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		.flip-quote-section {
+			padding: 5em 0;
+			border-top: 0.1em $light-grey solid;
+			text-align: center;
+			img {
+				padding: 0 2em;
+			}
+			h4 {
+				color: $navy;
+				font-family: $gill;
+			}
+		}
+		.engage-us-section {
+			padding: 5em 0;
+			border-top: 0.1em $light-grey solid;
+			font-family: $gill;
+			h3 {
+				text-align: center;
+				margin-bottom: 2.5em;
+				color: $dark-grey;
+			}
+			p {
+				margin-bottom: 2.5em;
+				color: $grey;
+			}
+			h4 {
+				color: $charcoal;
+			}
+			.inverse {
+				text-align: right;
+			}
+		}
+		.meet-us-section {
+			padding: 5em 0;
+			border-top: 0.1em $light-grey solid;
+			font-family: $gill;
+			color: $grey;
+			h3 {
+				text-align: center;
+				margin-bottom: 2.5em;
+				color: $dark-grey;
+			}
+			p {
+				padding-top: 1em;
+			}
+			img {
+				padding: .5em;
+			}
+		}
+		.why-followership-section {
+			padding: 5em 0;
+			border-top: 0.1em $light-grey solid;
+			font-family: $gill;
+			color: $grey;
+			h3 {
+				text-align: center;
+				margin-bottom: 2.5em;
+				color: $dark-grey;
+			}
+			h5 {
+				color: $dark-grey;
+			}
+			img {
+				z-index: -1;
+				position: relative; 
+	  	 		width: 100%;
+			}
+			.text-wrapper {
+				position: absolute;
+				top: 12em;
+			}
+		}
+	}
+}
 
 
 

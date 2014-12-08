@@ -5,6 +5,9 @@
 .site-header {
 	#top-bar {
 			background-color: $grey;
+			position: fixed;
+			width: 100%;
+			z-index: 1;
 			img {
 				width: 2em;
 				height: auto;
@@ -22,6 +25,7 @@
 			.navbar-brand {
 				#logo {
 					margin-top: .5em;
+					content:url(../images/logo/flipandlogo.png);
 				}
 			}
 			.navbar-header {
