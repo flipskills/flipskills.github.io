@@ -109,34 +109,24 @@
 			}
 		}
 		.meet-us-section {
-			padding: 5em 0;
-			border-top: 0.1em $light-grey solid;
-			font-family: $gill;
-			color: $grey;
+			padding: 2em 0;
 			h3 {
-				text-align: center;
-				margin-bottom: 2.5em;
-				color: $dark-grey;
+				margin-bottom: 1em;
 			}
 			p {
-				padding-top: 1em;
+				padding-top: 0;
 			}
 			img {
-				padding: .5em;
+				padding: .1em;
 			}
 		}
 		.why-followership-section {
-			padding: 5em 0;
-			border-top: 0.1em $light-grey solid;
-			font-family: $gill;
-			color: $grey;
+			padding: 2em 0;
 			h3 {
-				text-align: center;
-				margin-bottom: 2.5em;
-				color: $dark-grey;
+				margin-bottom: 1em;
 			}
 			h5 {
-				color: $dark-grey;
+				text-align: center;
 			}
 			img {
 				z-index: -1;
@@ -144,8 +134,8 @@
 	  	 		width: 100%;
 			}
 			.text-wrapper {
-				position: absolute;
-				top: 12em;
+				position: relative;
+				top: 0em;
 			}
 		}
 	}
