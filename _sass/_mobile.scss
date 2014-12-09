@@ -4,14 +4,15 @@
 @media (max-width: 800px) {
 	.site-header {
 		.wrapper {
-				padding: 0;
-				border-bottom: 1em $navy solid;
-				box-shadow: none;
+			z-index: 1;
+			padding: 0;
+			border-bottom: none;
+			box-shadow: none;
 			.navbar {
-				button {
+				a {
 					border: none;
 					#menu {
-						width: 3.5em;
+						width: 3em;
 					}
 				}
 				.navbar-brand {
@@ -19,18 +20,30 @@
 					a {
 						padding: 0;
 						// Below not working. Please debug
-						#logo {
-							content:url(../images/logo/logo.png);
-						}
+					}
+					#logo {
+						content:url(../images/logo/logo.png);
 					}
 				}
 				.navbar-header {
+					box-shadow: 0 1em 0 $navy;
 				}
 				.navbar-right {
+					margin-top: 0;
+					float: right;
+					background-color: $navy;
+					border: none;
+					padding-top: 2em;
 					li {
-						float: right;
+						float: left;
+						width: 100%;
 						a {
-							padding: 0 .5em;
+							text-align: center;
+							color: #fff;
+							padding-bottom: 0.5em;
+							margin: 0 2em 1em;
+							font-size: 1.5em;
+							// border-bottom: 0.1em $orange solid;
 						}
 					}
 				}

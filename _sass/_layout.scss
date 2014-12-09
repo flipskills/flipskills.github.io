@@ -24,13 +24,14 @@
 			border: none;
 			.navbar-brand {
 				#logo {
-					margin-top: .5em;
+					padding: .5em;
 					content:url(../images/logo/flipandlogo.png);
 				}
 			}
 			.navbar-header {
 			}
 			.navbar-right {
+				float: right;
 				li {
 					float: right;
 					a {
