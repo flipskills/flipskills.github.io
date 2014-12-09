@@ -99,23 +99,13 @@
 		}
 
 		.engage-us-section {
-			padding: 5em 0;
-			border-top: 0.1em $light-grey solid;
-			font-family: $gill;
-			h3 {
-				text-align: center;
-				margin-bottom: 2.5em;
-				color: $dark-grey;
-			}
-			p {
-				margin-bottom: 2.5em;
-				color: $grey;
-			}
-			h4 {
-				color: $charcoal;
-			}
+			padding: 2em 0;
 			.inverse {
-				text-align: right;
+				text-align: left;
+			}
+			img {
+				//Need new puzzle image for this...
+				content: none;
 			}
 		}
 		.meet-us-section {

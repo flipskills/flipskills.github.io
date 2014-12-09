@@ -31,7 +31,6 @@
 			.navbar-header {
 			}
 			.navbar-right {
-				float: right;
 				li {
 					float: right;
 					a {
@@ -143,6 +142,9 @@
 		}
 		.inverse {
 			text-align: right;
+		}
+		img {
+			content: url(../images/graphics/puzzle/puzzle.png);
 		}
 	}
 	.meet-us-section {
