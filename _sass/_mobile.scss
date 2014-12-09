@@ -1,6 +1,7 @@
 /**
  * Site header
  */
+
 @media (max-width: 800px) {
 	.site-header {
 		.wrapper {
@@ -56,53 +57,38 @@
 /**
  * Index
  */
+
 @media (max-width: 800px) {
 
 	.home {
 		.subtitle {
-			padding: 3em 0;
+			padding: 7em 0 0;
 			p {
-				color: $charcoal;
-				text-align: justify;
-				font-size: 1.3em;
-				font-family: $gill;
-				line-height: 1.3em;
-				padding: 0px 1em;
+				padding: 0 .5em;
 				span {
-					font-size: 1.1em;
-					letter-spacing: .1em;
+					letter-spacing: 0;
 				}
 			}
 		}
 		.book-section {
-			padding: 3em 0;
-			color: $grey;
-			text-align: justify;
-			font-family: $gill;
+			padding: 2em 0;
 			.book-description {
-				margin-top: 2em;
-			}
-			.book-image {
-				img {
-					padding-bottom: 1em;
-				}
+				padding: 0;
 			}
 			.book-buttons {
+				padding: 0;
 				button {
-					width: 100%;
-					border-radius: 0;
-					color: #fff;
-					background-color: $navy;
-					border: none;
-					padding: .5em;
-					font-family: $arial;
+					margin-top: 2em;
+					padding: 1em;
 				}
 			}
 		}
+
 		.endorsements-section {
 			padding: 5em 0;
 			border-top: 0.1em $light-grey solid;
-			background-image: url("../images/graphics/quote-marks.png");
+			// need knew way of showing quote
+			background-image: none;
 			background-repeat: no-repeat;
 			p {
 				color: $grey;
