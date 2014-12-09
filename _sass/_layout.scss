@@ -24,7 +24,7 @@
 			border: none;
 			.navbar-brand {
 				#logo {
-					margin-top: .5em;
+					padding: .5em;
 					content:url(../images/logo/flipandlogo.png);
 				}
 			}
@@ -143,6 +143,9 @@
 		.inverse {
 			text-align: right;
 		}
+		img {
+			content: url(../images/graphics/puzzle/puzzle.png);
+		}
 	}
 	.meet-us-section {
 		padding: 5em 0;
@@ -155,7 +158,7 @@
 			color: $dark-grey;
 		}
 		p {
-			padding-top: 1em;
+			padding: 1em 0;
 		}
 		img {
 			padding: .5em;
