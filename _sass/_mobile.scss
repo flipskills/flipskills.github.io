@@ -83,43 +83,21 @@
 				}
 			}
 		}
-
 		.endorsements-section {
-			padding: 5em 0;
-			border-top: 0.1em $light-grey solid;
+			padding: 2em 0;
 			// need knew way of showing quote
 			background-image: none;
-			background-repeat: no-repeat;
-			p {
-				color: $grey;
-				font-family: $gill;
-				margin-bottom: 0;
-				font-size: .9em;
-				padding-left: 2em;
-			}
 			#author {
-				color: $dark-blue;
-				margin-bottom: 4em;
+				margin-bottom: 0;
 			}
-			a {
-				text-align: center;
-				&:hover {
-					text-decoration: none;
-				}
+			img {
+				padding: 1.5em 0;
 			}
 		}
 		.flip-quote-section {
-			padding: 5em 0;
-			border-top: 0.1em $light-grey solid;
-			text-align: center;
-			img {
-				padding: 0 2em;
-			}
-			h4 {
-				color: $navy;
-				font-family: $gill;
-			}
+			padding: 2em 0;
 		}
+
 		.engage-us-section {
 			padding: 5em 0;
 			border-top: 0.1em $light-grey solid;
