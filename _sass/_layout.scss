@@ -65,28 +65,34 @@
 		}
 	}
 	.book-section {
-		padding: 3em 0;
+		padding: 0 0 3em;
 		color: $grey;
 		text-align: justify;
 		font-family: $gill;
+		font-size: .9em;
 		.book-description {
 			margin-top: 2em;
+			#book-quote {
+				text-align: center;
+				font-size: 1.1em;
+				color: $dark-grey;
+			}
 		}
 		.book-image {
 			img {
 				padding-bottom: 1em;
 			}
 		}
-		.book-buttons {
-			button {
-				width: 100%;
-				border-radius: 0;
-				color: #fff;
-				background-color: $navy;
-				border: none;
-				padding: .5em;
-				font-family: $arial;
-			}
+		button {
+			width: 100%;
+			border-radius: 0;
+			color: #fff;
+			background-color: $navy;
+			border: none;
+			padding: .7em;
+			font-family: $helvetica;
+			font-size: 1.2em;
+			margin-top: 1em;
 		}
 	}
 	.endorsements-section {
@@ -110,18 +116,6 @@
 			&:hover {
 				text-decoration: none;
 			}
-		}
-	}
-	.flip-quote-section {
-		padding: 5em 0;
-		border-top: 0.1em $light-grey solid;
-		text-align: center;
-		img {
-			padding: 0 2em;
-		}
-		h4 {
-			color: $navy;
-			font-family: $gill;
 		}
 	}
 	.engage-us-section {
