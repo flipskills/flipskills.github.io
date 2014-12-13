@@ -2,39 +2,55 @@
  * Site header
  */
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
 	.site-header {
 		.wrapper {
 			z-index: 1;
 			padding: 0;
 			border-bottom: none;
 			box-shadow: none;
+			.container-fluid {
+				padding-right: 0;
+				padding-left: 0;
+			}
 			.navbar {
+				border-bottom: 1em $navy solid;
 				a {
 					border: none;
 					#menu {
-						width: 3em;
+						padding-top: 1em;
+						width: 4em;
 					}
 				}
 				.navbar-brand {
 					padding: 0;
 					a {
 						padding: 0;
-						// Below not working. Please debug
-					}
-					#logo {
-						content:url(../images/logo/logo.png);
 					}
 				}
 				.navbar-header {
-					box-shadow: 0 1em 0 $navy;
-				}
+		        	float: none;
+		    	}
+		    	.navbar-toggle {
+			        display: block;
+			    }
+			    .navbar-collapse.collapse {
+			        display: none!important;
+			    }
+			    .navbar-collapse {
+			        padding-left: 0;
+			        padding-right: 0;
+			    }
+			    .navbar-collapse.collapse.in { 
+			        display: block!important;
+			    }
 				.navbar-right {
+					top: 0;
 					margin-top: 0;
-					float: right;
 					background-color: $navy;
 					border: none;
 					padding-top: 2em;
+					box-shadow: 0 1em 0 $navy;
 					li {
 						float: left;
 						width: 100%;
@@ -52,19 +68,43 @@
 		}
 	}
 }
-
+@media (max-width: 768px) {
+	.site-header {
+		.wrapper {
+			.container-fluid {
+				padding-right: 15px;
+				padding-left: 15px;
+			}
+			.navbar {
+				a {
+					#menu {
+						padding-top: 0;
+						width: 3em;
+					}
+				}
+				.navbar-collapse {
+			        padding-right: 15px;
+					padding-left: 15px;
+			    }
+				.navbar-brand {
+					#logo {
+						content:url(../images/logo/logo.png);
+					}
+				}
+			}
+		}
+	}
+}
 
 /**
  * Index
  */
-
-@media (max-width: 800px) {
-
+@media (max-width: 992px) {
 	.home {
 		.subtitle {
-			padding: 7em 0 0;
+			padding: 9em 0 0;
 			p {
-				padding: 0 .5em;
+				padding: 2em;
 				span {
 					letter-spacing: 0;
 				}
@@ -72,8 +112,13 @@
 		}
 		.book-section {
 			padding: 2em 0;
+			font-size: 0.9em;
 			.book-description {
 				padding: 0;
+				margin-top: 0;
+				#book-quote {
+					font-size: 1.2em;
+				}
 			}
 			.book-buttons {
 				padding: 0;
@@ -83,10 +128,49 @@
 				}
 			}
 		}
+		.engage-us-section {
+			p {
+				margin-bottom: 4em;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+
+	.home {
+		.subtitle {
+			padding: 7em 0 0;
+			p {
+				padding: 2em 1em 0;
+				span {
+					letter-spacing: 0;
+				}
+			}
+		}
+		.book-section {
+			padding: 2em 0;
+			font-size: 1.2em;
+			.book-description {
+				padding: 0;
+				#book-quote {
+					font-size: 1.4em;
+				}
+			}
+			.book-buttons {
+				padding: 0;
+				button {
+					margin-top: 1em;
+					padding: .7em;
+				}
+			}
+		}
 		.endorsements-section {
 			padding: 2em 0;
-			// need knew way of showing quote
 			background-image: none;
+			p {
+				font-size: 1.2em;
+			}
 			#author {
 				margin-bottom: 0;
 			}
@@ -94,18 +178,23 @@
 				padding: 1.5em 0;
 			}
 		}
-		.flip-quote-section {
-			padding: 2em 0;
-		}
-
 		.engage-us-section {
 			padding: 2em 0;
 			.inverse {
 				text-align: left;
 			}
-			img {
-				//Need new puzzle image for this...
-				content: none;
+			h3 {
+				margin-bottom: 1em;
+			}
+			p {
+				margin: 1em 0;
+				text-align: justify;
+			}
+			#puzzle {
+				padding-bottom: 1.5em;
+			}
+			#puzzle2 {
+				padding-top: 1.5em;
 			}
 		}
 		.meet-us-section {
@@ -142,7 +231,7 @@
  * Footer
  */
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 	.site-footer {
 		.connect-wrapper {
 			padding: 3em 0 0;

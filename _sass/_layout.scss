@@ -4,33 +4,36 @@
 
 .site-header {
 	#top-bar {
-			background-color: $grey;
-			position: fixed;
-			width: 100%;
-			z-index: 1;
-			img {
-				width: 2em;
-				height: auto;
-				margin-left: 1em;
-				padding: .2em;
-			}
+		background-color: $grey;
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+		img {
+			width: 2em;
+			height: auto;
+			margin-left: 1em;
+			padding: .2em;
 		}
+	}
 	.wrapper {
-			padding: 1em 0 3em;
-			border-bottom: .3em $dark-grey solid;
-			box-shadow: 0 .5em 0 $grey;
+		padding-top: 1em;
+		border-bottom: .3em $dark-grey solid;
+		box-shadow: 0 .5em 0 $grey;
 		.navbar {
 			background-color: #fff;
 			border: none;
 			.navbar-brand {
+				height: 100%;
 				#logo {
 					padding: .5em;
 					content:url(../images/logo/flipandlogo.png);
 				}
 			}
-			.navbar-header {
+			.navbar-collapse {
+				width: 100%;
 			}
 			.navbar-right {
+				top: 4em;
 				li {
 					float: right;
 					a {
@@ -65,28 +68,34 @@
 		}
 	}
 	.book-section {
-		padding: 3em 0;
+		padding: 0 0 3em;
 		color: $grey;
 		text-align: justify;
 		font-family: $gill;
+		font-size: 1.1em;
 		.book-description {
 			margin-top: 2em;
+			#book-quote {
+				text-align: center;
+				font-size: 1.3em;
+				color: $dark-grey;
+			}
 		}
 		.book-image {
 			img {
 				padding-bottom: 1em;
 			}
 		}
-		.book-buttons {
-			button {
-				width: 100%;
-				border-radius: 0;
-				color: #fff;
-				background-color: $navy;
-				border: none;
-				padding: .5em;
-				font-family: $arial;
-			}
+		button {
+			width: 100%;
+			border-radius: 0;
+			color: #fff;
+			background-color: $navy;
+			border: none;
+			padding: .7em;
+			font-family: $helvetica;
+			font-size: 1.2em;
+			margin-top: 1em;
 		}
 	}
 	.endorsements-section {
@@ -112,18 +121,6 @@
 			}
 		}
 	}
-	.flip-quote-section {
-		padding: 5em 0;
-		border-top: 0.1em $light-grey solid;
-		text-align: center;
-		img {
-			padding: 0 2em;
-		}
-		h4 {
-			color: $navy;
-			font-family: $gill;
-		}
-	}
 	.engage-us-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
@@ -134,17 +131,16 @@
 			color: $dark-grey;
 		}
 		p {
-			margin-bottom: 2.5em;
+			margin-bottom: 2.7em;
 			color: $grey;
+			font-size: 1.2em;
 		}
 		h4 {
 			color: $charcoal;
+			font-size: 1.5em;
 		}
 		.inverse {
 			text-align: right;
-		}
-		img {
-			content: url(../images/graphics/puzzle/puzzle.png);
 		}
 	}
 	.meet-us-section {
