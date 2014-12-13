@@ -4,33 +4,40 @@
 
 .site-header {
 	#top-bar {
-			background-color: $grey;
-			position: fixed;
-			width: 100%;
-			z-index: 1;
-			img {
-				width: 2em;
-				height: auto;
-				margin-left: 1em;
-				padding: .2em;
-			}
+		background-color: $grey;
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+		img {
+			width: 2em;
+			height: auto;
+			margin-left: 1em;
+			padding: .2em;
 		}
+	}
+	.container-fluid {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
 	.wrapper {
-			padding: 1em 0 3em;
-			border-bottom: .3em $dark-grey solid;
-			box-shadow: 0 .5em 0 $grey;
+		padding-top: 1em;
+		border-bottom: .3em $dark-grey solid;
+		box-shadow: 0 .5em 0 $grey;
 		.navbar {
 			background-color: #fff;
 			border: none;
 			.navbar-brand {
+				height: 100%;
 				#logo {
 					padding: .5em;
 					content:url(../images/logo/flipandlogo.png);
 				}
 			}
-			.navbar-header {
+			.navbar-collapse {
+				width: 100%;
 			}
 			.navbar-right {
+				top: 4em;
 				li {
 					float: right;
 					a {
