@@ -18,8 +18,8 @@
 				a {
 					border: none;
 					#menu {
-						padding-top: 2em;
-						width: 5em;
+						padding-top: 1em;
+						width: 4em;
 					}
 				}
 				.navbar-brand {
@@ -68,7 +68,7 @@
 		}
 	}
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 	.site-header {
 		.wrapper {
 			.container-fluid {
@@ -99,14 +99,12 @@
 /**
  * Index
  */
-
-@media (max-width: 800px) {
-
+@media (max-width: 992px) {
 	.home {
 		.subtitle {
-			padding: 7em 0 0;
+			padding: 9em 0 0;
 			p {
-				padding: 0 .5em;
+				padding: 2em;
 				span {
 					letter-spacing: 0;
 				}
@@ -114,8 +112,13 @@
 		}
 		.book-section {
 			padding: 2em 0;
+			font-size: 0.9em;
 			.book-description {
 				padding: 0;
+				margin-top: 0;
+				#book-quote {
+					font-size: 1.2em;
+				}
 			}
 			.book-buttons {
 				padding: 0;
@@ -125,10 +128,44 @@
 				}
 			}
 		}
+	}
+}
+
+@media (max-width: 768px) {
+
+	.home {
+		.subtitle {
+			padding: 7em 0 0;
+			p {
+				padding: 2em 1em 0;
+				span {
+					letter-spacing: 0;
+				}
+			}
+		}
+		.book-section {
+			padding: 2em 0;
+			font-size: 1.2em;
+			.book-description {
+				padding: 0;
+				#book-quote {
+					font-size: 1.4em;
+				}
+			}
+			.book-buttons {
+				padding: 0;
+				button {
+					margin-top: 1em;
+					padding: .7em;
+				}
+			}
+		}
 		.endorsements-section {
 			padding: 2em 0;
-			// need knew way of showing quote
 			background-image: none;
+			p {
+				font-size: 1.2em;
+			}
 			#author {
 				margin-bottom: 0;
 			}
@@ -180,7 +217,7 @@
  * Footer
  */
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 	.site-footer {
 		.connect-wrapper {
 			padding: 3em 0 0;

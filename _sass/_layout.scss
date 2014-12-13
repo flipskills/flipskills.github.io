@@ -15,10 +15,6 @@
 			padding: .2em;
 		}
 	}
-	.container-fluid {
-		padding-right: 15px;
-		padding-left: 15px;
-	}
 	.wrapper {
 		padding-top: 1em;
 		border-bottom: .3em $dark-grey solid;
@@ -76,12 +72,12 @@
 		color: $grey;
 		text-align: justify;
 		font-family: $gill;
-		font-size: .9em;
+		font-size: 1.1em;
 		.book-description {
 			margin-top: 2em;
 			#book-quote {
 				text-align: center;
-				font-size: 1.1em;
+				font-size: 1.3em;
 				color: $dark-grey;
 			}
 		}
