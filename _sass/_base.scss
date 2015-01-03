@@ -1,6 +1,37 @@
 /**
+ * Variables
+ */
+
+// Fonts
+$arial: Arial, Helvetica, sans-serif;
+$helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$gill: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+
+
+// Colours
+$charcoal: #202020;
+$dark-grey: #454545;
+$grey: #888888;
+$light-grey: #a9a9a9;
+$lightest-grey: #c8c8c8;
+
+$navy: #06215A;
+$dark-blue: #0f3567;
+$blue: #1958A8;
+$light-blue: #75a5e3;
+$lightest-blue: #b4d1f4;
+
+$burnt-orange: #95460c;
+$dark-orange: #be611c;
+$orange: #ef7921;
+$light-orange: #f79c58;
+$lightest-orange: #f6c29a;
+
+
+/**
  * Reset some basic elements
  */
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,71 +39,56 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
 /**
- * Basic styling
+ * Basic Mixins
  */
 
-// h1 {
-//     font-family: ;
-//     font-size: ;
-//     font-weight: ;
-//     color: ;
-// }
+@mixin title {
+    font-family: $arial;
+    font-size: 2em;
+    color: $dark-grey;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
 
-// h2 {
-//     font-family: ;
-//     font-size: ;
-//     font-weight: ;
-//     color: ;
-// }
-
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
+@mixin emphasize {
+    font-family: $gill;
+    font-size: 1em;
     color: $dark-grey;
 }
 
-// h4 {
-//     font-family: ;
-//     font-size: ;
-//     font-weight: ;
-//     color: ;
-// }
-
-// h5 {
-//     font-family: ;
-//     font-size: ;
-//     font-weight: ;
-//     color: ;
-// }
-
-// h6 {
-//     font-family: ;
-//     font-size: ;
-//     font-weight: ;
-//     color: ;
-// }
-
-// p {
-//     font-family: ;
-//     font-size: ;
-//     font-weight: ;
-//     color: ;
-// }
- 
-a {
-    text-decoration: none;
-    color: black;
-    &:visited {
-        text-decoration: none;
-        color: black;
-    }
-    &:hover {
-        text-decoration: none;
-        color: black;
-    }
+@mixin quote {
+    font-family: $gill;
+    font-size: 1.2em;
+    color: $dark-grey;
 }
 
+@mixin subtitle {
+    font-family: $gill;
+    font-size: 1.2em;
+    color: $charcoal;
+}
+
+@mixin p {
+    font-family: $gill;
+    font-size: 1em;
+    color: $grey;
+}
+
+@mixin button {
+    border-radius: 0;
+    width: 100%;
+    font-family: $helvetica;
+    font-size: 1.2em;
+    background-color: $navy;
+    border: none;
+    color: #fff;
+    padding: .7em;
+    margin-top: 1em;
+    &:hover {
+        background-color: $blue;
+    }
+}
 
 /**
  * Images
@@ -84,22 +100,20 @@ img {
 
 
 
-/**
- * Lists
- */
-
 
 /**
  * Links
  */
-a {
+@mixin a {
     text-decoration: none;
-
+    color: black;
     &:visited {
+        text-decoration: none;
+        color: black;
     }
-
     &:hover {
         text-decoration: none;
+        color: black;
     }
 }
 
