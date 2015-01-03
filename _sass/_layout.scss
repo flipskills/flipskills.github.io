@@ -1,3 +1,5 @@
+@import "base";
+
 /**
  * Site header
  */
@@ -41,6 +43,9 @@
 					}
 				}
 			}
+			.collapsing {
+				border: none;
+			}
 		}
 	}
 }
@@ -54,11 +59,9 @@
 .home {
 	.subtitle {
 		padding: 3em 0;
-		p {
-			color: $charcoal;
+		h6 {
+			@include subtitle;
 			text-align: justify;
-			font-size: 1.3em;
-			font-family: $gill;
 			line-height: 1.3em;
 			padding: 0px 1em;
 			span {
@@ -69,16 +72,17 @@
 	}
 	.book-section {
 		padding: 0 0 3em;
-		color: $grey;
 		text-align: justify;
-		font-family: $gill;
-		font-size: 1.1em;
+		p {
+			@include p;
+		}
 		.book-description {
 			margin-top: 2em;
 			#book-quote {
-				text-align: center;
-				font-size: 1.3em;
-				color: $dark-grey;
+				h5 {
+					@include quote;
+					text-align: center;
+				}
 			}
 		}
 		.book-image {
@@ -87,30 +91,15 @@
 			}
 		}
 		button {
-			width: 100%;
-			border-radius: 0;
-			color: #fff;
-			background-color: $navy;
-			border: none;
-			padding: .7em;
-			font-family: $helvetica;
-			font-size: 1.2em;
-			margin-top: 1em;
-			&:hover {
-		        background-color: $blue;
-		    }
+			@include button;
 		}
 	}
 	.endorsements-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
-		background-image: url("../images/graphics/quote-marks.png");
-		background-repeat: no-repeat;
 		p {
-			color: $grey;
-			font-family: $gill;
+			@include p;
 			margin-bottom: 0;
-			font-size: .9em;
 			padding-left: 2em;
 		}
 		#author {
@@ -118,45 +107,50 @@
 			margin-bottom: 4em;
 		}
 		a {
+			@include a;
 			text-align: center;
-			&:hover {
-				text-decoration: none;
-			}
+		}
+		.circle {
+			border-radius: 50%;
+			padding: 0 2em;
+		}
+		.quotation-marks {
+			position: absolute;
+			z-index: -1;
+			top: -3.3em;
+			left: 0;
 		}
 	}
 	.engage-us-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
 		font-family: $gill;
-		h3 {
-			text-align: center;
-			margin-bottom: 2.5em;
-			color: $dark-grey;
+		h2 {
+			@include title;
 		}
 		p {
+			@include p;
 			margin-bottom: 2.7em;
-			color: $grey;
-			font-size: 1.2em;
 		}
 		h4 {
-			color: $charcoal;
-			font-size: 1.5em;
+			@include subtitle;
 		}
 		.inverse {
 			text-align: right;
+		}
+		.row {
+			margin-right: 0;
+			margin-left: 0;
 		}
 	}
 	.meet-us-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
-		font-family: $gill;
-		color: $grey;
-		h3 {
-			text-align: center;
-			margin-bottom: 2.5em;
-			color: $dark-grey;
+		h2 {
+			@include title;
 		}
 		p {
+			@include p;
 			padding: 1em 0;
 		}
 		img {
@@ -166,19 +160,23 @@
 			margin-right: 0;
 			margin-left: 0;
 		}
+		#marc {
+			p {
+				text-align: right;
+			}
+		}
 	}
 	.why-followership-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
-		font-family: $gill;
-		color: $grey;
-		h3 {
-			text-align: center;
-			margin-bottom: 2.5em;
-			color: $dark-grey;
+		h2 {
+			@include title;
+		}
+		p {
+			@include p;
 		}
 		h5 {
-			color: $dark-grey;
+			@include emphasize;
 		}
 		img {
 			z-index: -1;
@@ -224,13 +222,15 @@
 				border: 0.2em $dark-grey solid;
 			}
 			.button {
-				background-color: $navy;
-				color: #fff;
+				border-radius: 0;
+			    width: 100%;
+			    color: #fff;
+			    font-family: $helvetica;
+			    background-color: $navy;
 				border: 0.2em $navy solid;
-				font-family: $arial;
 				&:hover {
-			        background-color: $blue;
 			        border: 0.2em $blue solid;
+			        background-color: $blue;
 			    }
 			}
 		}
@@ -241,8 +241,7 @@
 			color: $navy;
 		}
 		p {
-			color: $grey;
-			font-family: $arial;
+			@include p;
 			margin: 0;
 			letter-spacing: 0.05em;
 		}
