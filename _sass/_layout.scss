@@ -94,8 +94,6 @@
 	.endorsements-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
-		background-image: url("../images/graphics/quote-marks.png");
-		background-repeat: no-repeat;
 		p {
 			@include p;
 			margin-bottom: 0;
@@ -108,6 +106,15 @@
 		a {
 			@include a;
 			text-align: center;
+		}
+		.circle {
+			border-radius: 50%;
+		}
+		.quotation-marks {
+			position: absolute;
+			z-index: -1;
+			top: -3.3em;
+			left: 0;
 		}
 	}
 	.engage-us-section {
