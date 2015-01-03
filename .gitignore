@@ -1,3 +1,4 @@
 images/*.psd
 images/prep/
 .sass-cache/
+_site/images/prep/

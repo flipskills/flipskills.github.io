@@ -96,6 +96,9 @@
 			font-family: $helvetica;
 			font-size: 1.2em;
 			margin-top: 1em;
+			&:hover {
+		        background-color: $blue;
+		    }
 		}
 	}
 	.endorsements-section {
@@ -159,6 +162,10 @@
 		img {
 			padding: .5em;
 		}
+		.row {
+			margin-right: 0;
+			margin-left: 0;
+		}
 	}
 	.why-followership-section {
 		padding: 5em 0;
@@ -221,6 +228,10 @@
 				color: #fff;
 				border: 0.2em $navy solid;
 				font-family: $arial;
+				&:hover {
+			        background-color: $blue;
+			        border: 0.2em $blue solid;
+			    }
 			}
 		}
 	}
