@@ -40,6 +40,9 @@
 					float: right;
 					a {
 						padding: 0 .5em;
+						&:hover {
+							color: $orange;
+						}
 					}
 				}
 			}
@@ -97,6 +100,10 @@
 	.endorsements-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
+		.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
 		p {
 			@include p;
 			margin-bottom: 0;
@@ -112,13 +119,21 @@
 		}
 		.circle {
 			border-radius: 50%;
-			padding: 0 2em;
+			padding: 1.5em;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto
 		}
 		.quotation-marks {
 			position: absolute;
 			z-index: -1;
-			top: -3.3em;
+			top: -0.6em;
 			left: 0;
+		}
+		#flip {
+			top: 1.4em;
+			left: initial;
+			right: 1em;
 		}
 	}
 	.engage-us-section {

@@ -5,5 +5,5 @@
 ************************************************/
 
 function toggleActive(toggleClass) { 
-    $(toggleClass).toggle();
-}
+	    $(toggleClass).toggle();
+	}
