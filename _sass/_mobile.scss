@@ -16,7 +16,6 @@
 				padding-left: 0;
 			}
 			.navbar {
-				border-bottom: 1em $navy solid;
 				a {
 					border: none;
 					#menu {
@@ -25,14 +24,22 @@
 					}
 				}
 				.arrow-up {
-					width: 0; 
-					height: 0; 
-					border-left: 8em solid transparent;
-					border-right: 8em solid transparent;
-					border-bottom: 10em solid $navy;
+					width: 0;
+					height: 0;
+					border-left: 3em solid transparent;
+					border-right: 3em solid transparent;
+					border-bottom: 4em solid #06215A;
 					position: absolute;
 					top: 6em;
-					right: -4em;
+					right: .9em;
+				}
+				.line {
+					width: 100%;
+					box-shadow: 0 1em 0 $navy;
+					float: right;
+					display: list-item;
+					position: relative;
+					top: -1em;
 				}
 				.navbar-brand {
 					padding: 0;
@@ -42,6 +49,7 @@
 				}
 				.navbar-header {
 		        	float: none;
+		        	position: absolute;
 		    	}
 		    	.navbar-toggle {
 			        display: block;
@@ -57,12 +65,15 @@
 			        display: block!important;
 			    }
 				.navbar-right {
+					width: 50%;
 					top: 0;
 					margin-top: 0;
 					background-color: $navy;
 					border: none;
-					padding-top: 2em;
+					padding-top: 1em;
 					box-shadow: 0 1em 0 $navy;
+					margin-right: 0;
+					margin-left: 0;
 					li {
 						float: left;
 						width: 100%;
@@ -70,9 +81,8 @@
 							text-align: center;
 							color: #fff;
 							padding-bottom: 0.5em;
-							margin: 0 2em 1em;
-							font-size: 1.5em;
-							// border-bottom: 0.1em $orange solid;
+							margin: 0 2em 0.8em;
+							border-bottom: 0.2em $dark-blue solid;
 						}
 					}
 				}
@@ -95,8 +105,8 @@
 					}
 				}
 				.arrow-up {
-					top: 4em;
-					right: -4.6em;
+					top: 6.2em;
+					right: 0.4em;
 				}
 				.navbar-collapse {
 			        padding-right: 15px;
@@ -106,6 +116,36 @@
 					#logo {
 						content:url(../images/logo/logo.png);
 					}
+				}
+				.navbar-header {
+					width: 100%;
+				}
+				.navbar-right {
+					width: 70%;
+					float: right;
+					margin-right: -15px;
+					margin-left: -15px;
+					li {
+						a {
+							padding-bottom: 0.5em;
+							margin: 0 1em 1em;
+						}
+					}
+				}
+				.line {
+					box-shadow: 0 1.15em 0 #06215A;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.site-header {
+		.wrapper {
+			.navbar {
+				.arrow-up {
+					top: 4.2em;
 				}
 			}
 		}
@@ -128,12 +168,10 @@
 		}
 		.book-section {
 			padding: 2em 0;
-			font-size: 0.9em;
 			.book-description {
 				padding: 0;
 				margin-top: 0;
 				#book-quote {
-					font-size: 1.2em;
 				}
 			}
 			.book-buttons {
@@ -163,7 +201,7 @@
 
 	.home {
 		.subtitle {
-			padding: 7em 0 0;
+			padding: 11em 0 0;
 			p {
 				padding: 2em 1em 0;
 				span {
@@ -173,11 +211,9 @@
 		}
 		.book-section {
 			padding: 2em 0;
-			font-size: 1.2em;
 			.book-description {
 				padding: 0;
 				#book-quote {
-					font-size: 1.4em;
 				}
 			}
 			.book-buttons {
@@ -192,7 +228,6 @@
 			padding: 2em 0;
 			background-image: none;
 			p {
-				font-size: 1.2em;
 			}
 			#author {
 				margin-bottom: 0;
@@ -209,7 +244,7 @@
 			.inverse {
 				text-align: left;
 			}
-			h3 {
+			h2 {
 				margin-bottom: 1em;
 			}
 			p {
@@ -225,7 +260,7 @@
 		}
 		.meet-us-section {
 			padding: 2em 0;
-			h3 {
+			h2 {
 				margin-bottom: 1em;
 			}
 			p {
@@ -237,7 +272,7 @@
 		}
 		.why-followership-section {
 			padding: 2em 0;
-			h3 {
+			h2 {
 				margin-bottom: 1em;
 			}
 			h5 {
@@ -247,6 +282,24 @@
 				position: relative;
 				top: 0em;
 			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+
+	.home {
+		.subtitle {
+			padding: 8.5em 0 0;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+
+	.home {
+		.subtitle {
+			padding: 7em 0 0;
 		}
 	}
 }
@@ -274,18 +327,15 @@
 				input {
 					padding: .8em;
 					margin: 1em 0;
-					font-size: 1.2em;
 				}
 			}
 		}
 		.address-wrapper {
 			h4 {
-				font-size: 2em;
 				text-align: center;
 			}
 			p {
 				text-align: center;
-				font-size: 1.2em;
 			}
 			.description {
 				padding-top: 1.5em;
