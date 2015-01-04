@@ -34,15 +34,17 @@
 			.navbar-collapse {
 				width: 100%;
 			}
-			.navbar-right {
-				top: 4em;
-				li {
-					float: right;
-					a {
-						padding: 0 .5em;
-						&:hover {
-							color: $orange;
-						}
+			.navbar-menu {
+				text-align: right;
+				margin-top: 3em;
+				a {
+					@include a;
+					padding: 0 .5em;
+					color: $grey;
+					font-size: 1em;
+					font-family: $helvetica;
+					&:hover {
+						color: $orange;
 					}
 				}
 			}
