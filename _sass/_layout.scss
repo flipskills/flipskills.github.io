@@ -34,15 +34,17 @@
 			.navbar-collapse {
 				width: 100%;
 			}
-			.navbar-right {
-				top: 4em;
-				li {
-					float: right;
-					a {
-						padding: 0 .5em;
-						&:hover {
-							color: $orange;
-						}
+			.navbar-menu {
+				text-align: right;
+				margin-top: 3em;
+				a {
+					@include a;
+					padding: 0 .5em;
+					color: $grey;
+					font-size: 1em;
+					font-family: $helvetica;
+					&:hover {
+						color: $orange;
 					}
 				}
 			}
@@ -201,6 +203,19 @@
 		.text-wrapper {
 			position: absolute;
 			top: 12em;
+		}
+	}
+	.resources-section {
+		padding: 5em 0;
+		border-top: 0.1em $light-grey solid;
+		h2 {
+			@include title;
+		}
+		p {
+			@include p;
+		}
+		h4 {
+			@include subtitle;
 		}
 	}
 }

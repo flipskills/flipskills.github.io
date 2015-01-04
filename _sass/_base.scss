@@ -106,14 +106,11 @@ img {
  */
 @mixin a {
     text-decoration: none;
-    color: black;
     &:visited {
         text-decoration: none;
-        color: black;
     }
     &:hover {
         text-decoration: none;
-        color: black;
     }
 }
 
