@@ -247,6 +247,7 @@
 		}
 		form {
 			input {
+				border: 0.12em $light-grey solid;
 				text-align: center;
 				padding: .4em;
 				width: 100%;
@@ -301,7 +302,7 @@
 				letter-spacing: 0.05em;
 				margin: 1em 0 .5em;
 			}
-			button {
+			.button {
 				@include button;
 				padding: .6em;
 			}
