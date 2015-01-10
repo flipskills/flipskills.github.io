@@ -73,8 +73,7 @@
 			line-height: 1.3em;
 			padding: 0px 1em;
 			span {
-				font-size: 1.1em;
-				letter-spacing: .1em;
+				font-weight: bold;
 			}
 		}
 	}
@@ -247,13 +246,12 @@
 		}
 		form {
 			input {
-				border: 0.12em $light-grey solid;
 				text-align: center;
 				padding: .4em;
 				width: 100%;
 			}
 			.email {
-				border: 0.2em $dark-grey solid;
+				border: 0.12em $light-grey solid;
 			}
 			.button {
 				border-radius: 0;
