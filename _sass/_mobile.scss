@@ -311,7 +311,7 @@
 @media (max-width: 768px) {
 	.site-footer {
 		.connect-wrapper {
-			padding: 3em 0 0;
+			padding: 3em 0;
 			border-bottom: none;
 			h3 {
 				text-align: center;
@@ -330,15 +330,22 @@
 				}
 			}
 		}
-		.address-wrapper {
-			h4 {
+		.contact-us-wrapper {
+			.address-wrapper {
 				text-align: center;
+				padding-bottom: 3em;
 			}
-			p {
-				text-align: center;
-			}
-			.description {
-				padding-top: 1.5em;
+			.form-wrapper {
+				input, textarea {
+					width: 100%;
+					border: 0.12em $light-grey solid;
+				}
+				p {
+					@include p;
+					color: $navy;
+					letter-spacing: 0.05em;
+					margin: 1em 0 .5em;
+				}
 			}
 		}
 	}

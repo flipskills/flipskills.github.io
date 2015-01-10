@@ -268,20 +268,46 @@
 			}
 		}
 	}
-	.address-wrapper {
-		padding: 6em 0;
-		h4 {
-			color: $navy;
+	.contact-us-wrapper {
+		padding: 5em 0;
+		font-family: $gill;
+		h2 {
+			@include title;
 		}
-		p {
-			@include p;
-			margin: 0;
-			letter-spacing: 0.05em;
+		.address-wrapper {
+			h4 {
+				color: $navy;
+			}
+			p {
+				@include p;
+				margin: 0;
+				letter-spacing: 0.05em;
+			}
+			.description {
+				color: $charcoal;
+			}
+			img {
+				width: 12em;
+			}
 		}
-		.description {
-			color: $charcoal;
+		.form-wrapper {
+			input, textarea {
+				width: 100%;
+				border: 0.12em $light-grey solid;
+			}
+			p {
+				@include p;
+				color: $navy;
+				letter-spacing: 0.05em;
+				margin: 1em 0 .5em;
+			}
+			button {
+				@include button;
+				padding: .6em;
+			}
 		}
 	}
+	
 }
 
 
