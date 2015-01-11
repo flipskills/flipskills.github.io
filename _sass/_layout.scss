@@ -86,12 +86,6 @@
 		}
 		.book-description {
 			margin-top: 2em;
-			#book-quote {
-				h5 {
-					@include quote;
-					text-align: center;
-				}
-			}
 		}
 		.book-image {
 			img {
@@ -101,6 +95,11 @@
 		button {
 			@include button;
 		}
+	}
+	.scroll {
+		height: 40em;
+		overflow: hidden;
+		overflow-y: scroll;
 	}
 	.endorsements-section {
 		padding: 5em 0;

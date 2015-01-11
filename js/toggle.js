@@ -4,4 +4,5 @@ function togglenav () {
 
 function toggleView () {
 	$(".endorsements-toggle").toggle();
+	$(".endorsements-section").toggleClass('scroll');
 }
