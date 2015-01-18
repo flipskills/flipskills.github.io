@@ -41,15 +41,16 @@
 				a {
 					@include a;
 					padding: 0 .5em;
-					color: $grey;
+					color: $dark-grey;
 					font-size: 1em;
 					font-family: $helvetica;
+					font-weight: 500;
 					&:hover {
 						color: $orange;
 					}
 				}
 				span {
-					color: $grey;
+					color: $dark-grey;
 				}
 			}
 			.collapsing {
@@ -253,7 +254,7 @@
 				padding: .4em;
 				width: 100%;
 			}
-			.emailSubscribe {
+			.email {
 				border: 0.12em $light-grey solid;
 			}
 			.button {

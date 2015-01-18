@@ -39,7 +39,7 @@
 
     $(".subscribe-form").validate({
         rules: {
-            emailSubscribe: {
+            email: {
                 required: true,
                 email: true
             },
@@ -51,7 +51,7 @@
         $.ajax({
             dataType: "jsonp",
             url: "http://getsimpleform.com/messages/ajax?form_api_token=4c8d34126c52221ab241246ba0712e3e",
-            data: $(".ajax-form").serialize()
+            data: $(".subscribe-form").serialize()
         }).done(function() {
             $(".subscribe-error").hide();
             $(".subscribe-form").hide();
