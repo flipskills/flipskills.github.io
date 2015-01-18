@@ -2,26 +2,38 @@
 *   VALIDATE.js
 *	Description: Email and form validation
 ************************************************/
-// (function() {
-//     'use strict'
+(function() {
+    'use strict'
 
-    function validateForm() {
-
-        var name = document.forms["conversation"]["name"].value;
-
-        var email = document.forms["conversation"]["email"].value;
-        var at = email.indexOf("@");
-        var dot = email.lastIndexOf(".");
-
-        if (x == null || x == "") {
-            alert("First name must be filled out");
-            return false;
+    $(".ajax-form").validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 2
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            message: {
+                required: true,
+                minlength: 5
+            }
+        },
+        errorPlacement: function(error, element) {
+        },
+        submitHandler: function(form) {
+        $.ajax({
+            dataType: "jsonp",
+            url: "http://getsimpleform.com/messages/ajax?form_api_token=4c8d34126c52221ab241246ba0712e3e",
+            data: $(".ajax-form").serialize()
+        }).done(function() {
+            //callback which can be used to show a thank you message
+            //and reset the form
+            alert("Thank you, for contacting us");
+        });
+            return false; //to stop the form from submitting
         }
+    });
 
-        if (ats< 1 || dot<at+2 || dot+2>=x.length) {
-            alert("Not a valid e-mail address");
-            return false;
-        }
-    }
-
-// })();
+})();
