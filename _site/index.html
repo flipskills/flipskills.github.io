@@ -594,14 +594,20 @@
                 <img src="./images/smedia/email.png" alt="Email US">
             </a>
         </div>
-        <form>
+        <div class="subscribe-error">
+            <p>Whoops! That doesn't appear to be a valid email.</p>
+        </div>
+        <form name="subscribe-form" action="#" class="subscribe-form" enctype="text/plain">
             <div class="col-xs-12 col-sm-7 col-md-7">
-                <input class="email" type="text" name="" placeholder="enter your email here to subscribe to our monthly ideasletter">
+                <input class="emailSubscribe" type="text" name="emailSubscribe" placeholder="enter your email here to subscribe to our monthly ideasletter">
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <input class="button" type="submit" value="Subscribe">
             </div>
         </form>
+        <div class="subscribe-thank-you">
+            <h3>Thank you for subscribing!</h3>
+        </div>
     </div>
 
     <a id="contact-us" name="contact-us"></a>
