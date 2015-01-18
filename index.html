@@ -65,7 +65,7 @@ layout: default
 
 <!-- ENDORSEMENTS -->
 	<div class="container-fluid">
-		<div class="endorsements-section col-xs-12 col-sm-10 col-sm-offset-1">
+		<div class="endorsements-section col-xs-12 col-md-10 col-md-offset-1">
 
 			<!-- Marshal-->
 			<div class="endorsement col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
@@ -321,7 +321,7 @@ layout: default
 	<a id="our-services" name="engage-us"></a>
 
 	<div class="container-fluid">
-		<div class="our-services-section col-xs-12 col-sm-10 col-sm-offset-1">
+		<div class="our-services-section col-xs-12 col-md-10 col-md-offset-1">
 
 			<h2>Our services</h2>
 
@@ -372,7 +372,7 @@ layout: default
 	<a id="meet-us" name="meet-us"></a>
 
 	<div class="container-fluid">
-		<div class="meet-us-section col-xs-12 col-sm-10 col-sm-offset-1">
+		<div class="meet-us-section col-xs-12 col-md-10 col-md-offset-1">
 			<h2>Meet us</h2>
 
 			<div class="row">
@@ -406,7 +406,7 @@ layout: default
 	<a id="why-followership" name="why-followership"></a>
 
 	<div class="container-fluid">
-		<div class="why-followership-section col-sm-10 col-sm-offset-1">
+		<div class="why-followership-section col-xs-12 col-md-10 col-md-offset-1">
 			<h2>Why Followership</h2>
 			<br>
 			<div class="text-wrapper col-sm-9">
@@ -424,40 +424,28 @@ layout: default
 	<a id="resources" name="resources"></a>
 
 	<div class="container-fluid">
-		<div class="resources-section col-xs-12 col-sm-10 col-sm-offset-1">
+		<div class="resources-section col-xs-12 col-md-10 col-md-offset-1">
 
 			<h2>Resources and Tools</h2>
 
-			<div class="col-xs-12 col-sm-6 col-md-4">
-			    <div class="thumbnail">
-			      	<img src="http://placehold.it/300x250" alt="">
-			      	<div class="caption">
-				        <h4>Thumbnail label</h4>
-				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-			      	</div>
-			    </div>
-			</div>
-
-			<div class="col-xs-12 col-sm-6 col-md-4">
-			    <div class="thumbnail">
-			      	<img src="http://placehold.it/300x250" alt="">
-			      	<div class="caption">
-				        <h4>Thumbnail label</h4>
-				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-			      	</div>
-			    </div>
-			</div>
-
-			<div class="col-xs-12 col-sm-6 col-md-4">
-			    <div class="thumbnail">
-			      	<img src="http://placehold.it/300x250" alt="">
-			      	<div class="caption">
-				        <h4>Thumbnail label</h4>
-				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-			      	</div>
-			    </div>
+			<div class="post=list">
+				{% for post in site.posts limit:3 %}
+				
+				<div class="col-xs-12 col-sm-6 col-md-4">
+				    <div class="thumbnail">
+				      	<img src="{{ post.img }}" alt="{{ post.title }}">
+				      	<div class="caption">
+					        <h4>{{ post.category }}</h4>
+					        <p>{{ post.content | strip_html | truncatewords:50}}</p>
+				      	</div>
+				    </div>
+				</div>
+				{% endfor %}
 			</div>
 
 		</div>
 	</div>
+
+
+
 </div>
