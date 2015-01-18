@@ -140,7 +140,7 @@
 			right: 1em;
 		}
 	}
-	.engage-us-section {
+	.our-services-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
 		font-family: $gill;
@@ -160,6 +160,9 @@
 		.row {
 			margin-right: 0;
 			margin-left: 0;
+		}
+		button {
+			@include button;
 		}
 	}
 	.meet-us-section {
