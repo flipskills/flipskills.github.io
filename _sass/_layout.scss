@@ -308,6 +308,26 @@
 				padding: .6em;
 			}
 		}
+		.error { 
+			border: 3px solid $orange !important; 
+		}
+		.form-thank-you {
+		  	display: none;
+		  	width: 100%;
+		  	text-align: center;
+			h3 { 
+				padding-top: 2em; 
+			}
+		}
+		.form-error {
+		  	display: none;
+		  	width: 100%;
+		  	text-align: center;
+		  	p {
+		  		color: $orange;
+		  		margin: 0;
+		  	}
+		}
 	}
 	
 }
