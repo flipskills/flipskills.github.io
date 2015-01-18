@@ -21,18 +21,18 @@
 					border: none;
 					#menu {
 						padding-top: 1em;
-						width: 4em;
+						width: 3.5em;
 					}
 				}
 				.arrow-up {
 					width: 0;
 					height: 0;
-					border-left: 3em solid transparent;
-					border-right: 3em solid transparent;
-					border-bottom: 4em solid #06215A;
+					border-left: 2.2em solid transparent;
+					border-right: 2.2em solid transparent;
+					border-bottom: 2.7em solid #06215A;
 					position: absolute;
 					top: 6em;
-					right: .9em;
+					right: 1.5em;
 				}
 				.line {
 					width: 100%;
@@ -47,10 +47,15 @@
 					a {
 						padding: 0;
 					}
+					#logo {
+						max-width: none;
+						width: 15em;
+					}
 				}
 				.navbar-header {
 		        	float: none;
 		        	position: absolute;
+		        	width: 100%;
 		    	}
 		    	.navbar-toggle {
 			        display: block;
@@ -118,8 +123,8 @@
 					}
 				}
 				.arrow-up {
-					top: 6.2em;
-					right: 0.4em;
+					top: 4.2em;
+					right: 1.2em;
 				}
 				.navbar-collapse {
 			        padding-right: 15px;
@@ -148,18 +153,6 @@
 				}
 				.line {
 					box-shadow: 0 1.15em 0 #06215A;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 600px) {
-	.site-header {
-		.wrapper {
-			.navbar {
-				.arrow-up {
-					top: 4.2em;
 				}
 			}
 		}
@@ -213,7 +206,7 @@
 
 	.home {
 		.subtitle {
-			padding: 11em 0 0;
+			// padding: 11em 0 0;
 			p {
 				padding: 2em 1em 0;
 				span {
@@ -294,24 +287,6 @@
 				position: relative;
 				top: 0em;
 			}
-		}
-	}
-}
-
-@media (max-width: 600px) {
-
-	.home {
-		.subtitle {
-			padding: 8.5em 0 0;
-		}
-	}
-}
-
-@media (max-width: 400px) {
-
-	.home {
-		.subtitle {
-			padding: 7em 0 0;
 		}
 	}
 }
