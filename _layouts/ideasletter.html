@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+		<div class="ideasletter col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+			<header class="container-fluid">
+				<div class="col-xs-12">
+					<img src="../../../../images/ideasletters/header.jpg">
+				</div>
+			</header>
+
+
+		  	<div class="introduction col-xs-12">
+		  		<h1 class="post-title">{{ page.title }}</h1>
+		  		<br>
+		  		<h3>Dear Reader,</h3>
+		  		<div class="col-xs-4">
+					<img src="../../../../images/ideasletters/fliptips.png">
+					<p>{{ page.vol }}</p>
+				</div>
+
+				<div class="col-xs-8">
+					{{ page.introduction }}
+				</div>
+		  	</div>
+
+		  	<article class="post-content col-xs-12">
+		  		<h3>{{ page.title }}</h3>
+		    	{{ content }}
+		  	</article>
+
+		</div>
+
+  </body>
+
+</html>

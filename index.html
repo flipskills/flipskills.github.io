@@ -442,16 +442,17 @@ layout: default
 
 			<div class="post=list">
 				{% for post in site.posts limit:3 %}
-				
-				<div class="col-xs-12 col-sm-6 col-md-4">
-				    <div class="thumbnail">
-				      	<img src="{{ post.img }}" alt="{{ post.title }}">
-				      	<div class="caption">
-					        <h4>{{ post.category }}</h4>
-					        <p>{{ post.content | strip_html | truncatewords:50}}</p>
-				      	</div>
-				    </div>
-				</div>
+				<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+					    <div class="thumbnail">
+					      	<img src="{{ post.img }}" alt="{{ post.title }}">
+					      	<div class="caption">
+						        <h4>{{ post.title }}</h4>
+						        <p>{{ post.content | strip_html | truncatewords:50}}</p>
+					      	</div>
+					    </div>
+					</div>
+				</a>
 				{% endfor %}
 			</div>
 

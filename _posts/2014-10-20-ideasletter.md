@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ideasletter
 title:  "Welcome to Jekyll!"
 date:   2015-01-14 21:35:51
 category: ideasletter
