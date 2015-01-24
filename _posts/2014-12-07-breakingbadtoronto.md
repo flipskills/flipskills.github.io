@@ -3,7 +3,7 @@ layout: ideasletter
 title:  "'Breaking Bad Toronto': The Power and Contagion of Positive Psychology"
 vol:   "Dec 2014 - Vol 5, Issue 9"
 category: ideasletter
-img: /images/ideasletters/breakingbadtoronto.jpg
+img: /images/ideasletter/breakingbadtoronto.jpg
 introduction: "<p>Some of you will remember our news last spring of moving home and business to Liberty Village Toronto. In short, we love it: the vibrancy, the vibe, the friendliness. However, it isn't without incident. This last one both made the news AND inspired this ideasletter. To you all, happy holidays and happy new year!</p><p>Warmly,</p><p>Samantha and Dr. Marc Hurwitz</p>"
 ---
 <div class="col-xs-12">
