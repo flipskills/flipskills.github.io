@@ -3,7 +3,7 @@ layout: ideasletter
 title:  "Extreme Communicating & Book Launch Information"
 vol:   "Jan 2015 - Vol 6 Issue 1"
 category: ideasletter
-img: images/ideasletters/extremecommunication.jpg
+img: /images/ideasletters/extremecommunication.jpg
 introduction: "<p>Excellent communication practices are an essential ingredient in collaboration, strong leadership, healthy corporate culture, and flourishing relationships. Like many things that are important and good for us, we can often use a reminder and a refresher - something to inspire us to refocus and redouble our efforts whether it's eating healthier, being more physically active, or communicating better.</p><p>We are getting close to the publication of our first book, Leadership is Half the Story (and terribly excited!). And while communicating is such a big part of our lives, we still want to be better. This got us to thinking about Extreme Communicating.</p><p>May all your partnerships be generative, </p><p>Marc & Samantha</p>"
 ---
 <div class="col-xs-12">

@@ -445,7 +445,7 @@ layout: default
 				<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="col-xs-12 col-sm-6 col-md-4">
 					    <div class="thumbnail">
-					      	<img src="{{ post.img }}" alt="{{ post.title }}">
+					      	<img src="{{ site.url }}{{ site.baseurl }}{{ post.img }}" alt="{{ post.title }}">
 					      	<div class="caption">
 						        <h4>{{ post.title }}</h4>
 						        <p>{{ post.content | strip_html | truncatewords:50}}</p>
