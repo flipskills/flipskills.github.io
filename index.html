@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home" id="home">
 	<div class="subtitle col-md-8 col-md-offset-2">
 		<h6>We work with organizations all over the globe to fuel collaboration, enhance creativity, and develop today’s essential workplace capabilities: <span>F</span>ollowership, <span>l</span>eadership, <span>i</span>nnovation & <span>P</span>artnership skills.</h6>
 	</div>
@@ -441,21 +441,28 @@ layout: default
 			<h2>Resources and Tools</h2>
 
 			<div class="post=list">
-				{% for post in site.posts limit:3 %}
+				{% for post in site.categories.ideasletter limit:3 %}
 				<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="col-xs-12 col-sm-6 col-md-4">
 					    <div class="thumbnail">
 					      	<img src="{{ site.url }}{{ site.baseurl }}{{ post.img }}" alt="{{ post.title }}">
 					      	<div class="caption">
 						        <h4>{{ post.title }}</h4>
-						        <p>{{ post.content | strip_html | truncatewords:50}}</p>
+						        <p class="resource-date">{{ post.vol }}</p>
+						        <p>{{ post.content | strip_html | truncatewords:30}}</p>
+
+						        <p class="link-to-resource">Click here for the whole article</h5>
 					      	</div>
 					    </div>
 					</div>
 				</a>
 				{% endfor %}
 			</div>
-
+			<div class="col-xs-12">
+				<a href="resources.html">
+					<p class="link-to-resources">Click here for a full list of resources</p>
+				</a>
+			</div>
 		</div>
 	</div>
 

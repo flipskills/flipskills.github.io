@@ -1,0 +1,31 @@
+---
+layout: overlay
+---
+
+<div class="container-fluid">
+    <div class="resources-container col-xs-12 col-md-10 col-md-offset-1">
+		<div class="col-xs-12">
+			<h2>Resources and Tools</h2>
+		</div>
+
+		{% for post in site.posts %}
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      	<img src="{{ site.url }}{{ site.baseurl }}{{ post.img }}" alt="{{ post.title }}">
+			      	<div class="caption">
+				        <h4>{{ post.title }}</h4>
+				        <p class="resource-date">{{ post.vol }}</p>
+				        <p>{{ post.content | strip_html | truncatewords:30}}</p>
+
+				        <p class="link-to-resource">Click here for the whole article</h5>
+			      	</div>
+			    </div>
+			</div>
+		</a>
+		{% endfor %}
+	</div>
+</div>
+
+
+

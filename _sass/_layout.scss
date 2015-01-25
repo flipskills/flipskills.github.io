@@ -1,70 +1,8 @@
-@import "base";
-
-/**
- * Site header
- */
-
-.site-header {
-	#top-bar {
-		background-color: $grey;
-		position: fixed;
-		width: 100%;
-		z-index: 1;
-		img {
-			width: 2em;
-			height: auto;
-			margin-left: 1em;
-			padding: .2em;
-		}
-	}
-	.wrapper {
-		padding-top: 1em;
-		border-bottom: .3em $dark-grey solid;
-		box-shadow: 0 .5em 0 $grey;
-		height: 100%;
-		.navbar {
-			background-color: #fff;
-			border: none;
-			.navbar-brand {
-				height: 100%;
-				#logo {
-					padding: .5em;
-					content:url(../images/logo/flipandlogo.png);
-				}
-			}
-			.navbar-collapse {
-				width: 100%;
-			}
-			.navbar-menu {
-				text-align: right;
-				margin-top: 3em;
-				a {
-					@include a;
-					padding: 0 .5em;
-					color: $dark-grey;
-					font-size: 1em;
-					font-family: $helvetica;
-					font-weight: 500;
-					&:hover {
-						color: $orange;
-					}
-				}
-				span {
-					color: $dark-grey;
-				}
-			}
-			.collapsing {
-				border: none;
-			}
-		}
-	}
-}
-
-
-
 /**
  * Index
  */
+
+@import "base";
 
 .home {
 	.subtitle {
@@ -214,147 +152,35 @@
 	.resources-section {
 		padding: 5em 0;
 		border-top: 0.1em $light-grey solid;
+		.thumbnail {
+			max-width: 30em;
+			padding: 1em;
+			margin: 1em auto;
+			overflow: hidden;
+			img {
+				width: 92%;
+			}
+		}
 		h2 {
 			@include title;
 		}
 		p {
 			@include p;
 		}
+		.resource-date {
+			color: $dark-grey;
+		}
 		h4 {
 			@include subtitle;
 		}
+		.link-to-resource {
+			text-align: center;
+			color: $charcoal;
+		}
+		.link-to-resources {
+			margin-top: 2em;
+			text-align: center;
+			color: $dark-blue;
+		}
 	}
 }
-
-
-
-/**
- * Footer
- */
-
-.site-footer {
-	.connect-wrapper {
-		padding: 6em 0;
-		border-top: 0.1em $light-grey solid;
-		border-bottom: 0.1em $light-grey solid;
-		h3 {
-		    font-family: $gill;
-		    color: $dark-grey;
-		}
-		.smedia {
-			padding-bottom: 6em;
-			img {
-				width: 4em;
-				height: auto;
-			}
-		}
-		form {
-			input {
-				text-align: center;
-				padding: .4em;
-				width: 100%;
-			}
-			.email {
-				border: 0.12em $light-grey solid;
-			}
-			.button {
-				border-radius: 0;
-			    width: 100%;
-			    color: #fff;
-			    font-family: $helvetica;
-			    background-color: $navy;
-				border: 0.2em $navy solid;
-				&:hover {
-			        border: 0.2em $blue solid;
-			        background-color: $blue;
-			    }
-			}
-		}
-		.error { 
-			border: 3px solid $orange !important; 
-		}
-		.subscribe-thank-you {
-		  	display: none;
-		  	width: 100%;
-		  	text-align: center;
-			h3 { 
-				padding-top: 2em; 
-			}
-		}
-		.subscribe-error {
-		  	display: none;
-		  	width: 100%;
-		  	text-align: center;
-		  	p {
-		  		color: $orange;
-		  		margin: 0;
-		  	}
-		}
-	}
-	.contact-us-wrapper {
-		padding: 5em 0;
-		font-family: $gill;
-		h2 {
-			@include title;
-		}
-		.address-wrapper {
-			h4 {
-				color: $navy;
-			}
-			p {
-				@include p;
-				margin: 0;
-				letter-spacing: 0.05em;
-			}
-			.description {
-				color: $charcoal;
-			}
-			img {
-				width: 12em;
-			}
-		}
-		.form-wrapper {
-			input, textarea {
-				width: 100%;
-				border: 0.12em $light-grey solid;
-			}
-			p {
-				@include p;
-				color: $navy;
-				letter-spacing: 0.05em;
-				margin: 1em 0 .5em;
-			}
-			.button {
-				@include button;
-				padding: .6em;
-			}
-		}
-		.error { 
-			border: 3px solid $orange !important; 
-		}
-		.form-thank-you {
-		  	display: none;
-		  	width: 100%;
-		  	text-align: center;
-			h3 { 
-				padding-top: 2em; 
-			}
-		}
-		.form-error {
-		  	display: none;
-		  	width: 100%;
-		  	text-align: center;
-		  	p {
-		  		color: $orange;
-		  		margin: 0;
-		  	}
-		}
-	}
-	
-}
-
-
-
-
-
-
