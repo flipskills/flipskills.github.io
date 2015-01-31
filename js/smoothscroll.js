@@ -13,7 +13,7 @@ $(document).ready(function() {
 
             if (window.innerWidth <= 768) {
                 $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top-70
+                    'scrollTop': $target.offset().top-60
                 }, 800, 'swing', function () {
                     window.location.hash = target;
                 });
