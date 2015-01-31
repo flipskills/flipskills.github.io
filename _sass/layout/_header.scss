@@ -163,9 +163,10 @@
 			.navbar {
 				height: 6em;
 				a {
+					margin-bottom: 0;
 					#menu {
 						margin-top: 0;
-						width: 3em;
+						width: 2em;
 					}
 				}
 				.arrow-up {
@@ -178,7 +179,7 @@
 			    }
 				.navbar-brand {
 					#logo {
-						width: 10em;
+						width: 4em;
 						content:url(../images/logo/logo.png);
 					}
 				}
@@ -190,15 +191,17 @@
 					float: right;
 					margin-right: -15px;
 					margin-left: -15px;
+					padding-top: 0;
 					li {
 						a {
-							padding-bottom: 0.5em;
-							margin: 0 1em 1em;
+							padding: 0.3em;
+							margin: 0 0 0.5em 1em;
 						}
 					}
 				}
 				.line {
-					box-shadow: 0 1.15em 0 #06215A;
+					top: -1.5em;
+					box-shadow: 0 0.7em 0 #06215A;
 				}
 			}
 		}
