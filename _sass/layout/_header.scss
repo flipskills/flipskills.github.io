@@ -78,6 +78,7 @@
 					#menu {
 						margin-top: 1em;
 						width: 2.5em;
+						z-index: 50;
 					}
 				}
 				.arrow-up {
@@ -89,6 +90,7 @@
 					position: absolute;
 					top: 6em;
 					right: 1.5em;
+					z-index: 100;
 				}
 				.line {
 					width: 100%;
@@ -164,14 +166,18 @@
 				height: 4em;
 				a {
 					margin-bottom: 0;
+					padding: 0.3em 0 0;
 					#menu {
 						margin-top: 0;
 						width: 2em;
 					}
 				}
 				.arrow-up {
-					top: 4.2em;
-					right: 1.2em;
+					border-left: 1.5em solid transparent;
+					border-right: 1.5em solid transparent;
+					border-bottom: 1.8em solid #06215A;
+					top: -2em;
+					right: 0.7em;
 				}
 				.navbar-collapse {
 			        padding-right: 15px;
