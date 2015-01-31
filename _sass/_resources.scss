@@ -12,7 +12,11 @@
 		height: auto;
 		padding: 1em 0;
 	}
+	.close-wrapper {
+		float: right;
+	}
 	.close {
+		float: none;
 		height: 2em;
 		width: 0.1em;
 		margin-left:1em;
