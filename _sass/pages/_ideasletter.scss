@@ -42,3 +42,17 @@
 		float: right;
 	}
 }
+
+@media (max-width: 768px) {
+	.ideasletter.col-xs-12 {
+		padding: 3em 0;
+		.ideasletter-header {
+			padding: 0;
+		}
+		.post-content {
+			div.col-xs-12 {
+				padding: 0;
+			}
+		}
+	}
+}

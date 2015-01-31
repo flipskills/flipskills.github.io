@@ -7,7 +7,7 @@
 
 
 .overlay-header {
-	background: white;
+	background-color: white;
 	z-index: 1;
 	width: 100%;
 	border-bottom: 0.1em $light-grey solid;
@@ -17,6 +17,7 @@
 		width: 15em;
 		height: auto;
 		padding: 1em 0;
+		content:url(../images/logo/flipandlogo.png);
 	}
 	.close-wrapper {
 		float: right;
@@ -52,36 +53,81 @@
 	}
 }
 
-.resources-container {
-		padding: 10em 0 5em;;
-		.thumbnail {
-			max-width: 30em;
-			padding: 1em;
-			margin: 1em auto;
-			overflow: hidden;
-			img {
-				width: 92%;
+@media (max-width: 768px) {
+	.overlay-header {
+		padding: 0;
+		background-color: white;
+		z-index: 1;
+		width: 100%;
+		border-bottom: 0.1em $light-grey solid;
+		position: fixed;
+		top: 0;
+		#logo {
+			width: 7em;
+			padding: 0.5em 0;
+			content:url(../images/logo/logo.png);
+		}
+		.close-wrapper {
+			position: absolute;
+			top: -1.3em;
+			right: 0;
+		}
+		.close {
+			height: 1.5em;
+			&:hover {
+				background-color: $orange;
+				opacity: 1; 
+			}
+			div {
+				height: 1.5em;
+				&:hover {
+					background-color: $orange;
+					opacity: 1; 
+				}
 			}
 		}
-		h2 {
-			@include title;
-		}
-		p {
-			@include p;
-		}
-		.resource-date {
-			color: $dark-grey;
-		}
-		h4 {
-			@include subtitle;
-		}
-		.link-to-resource {
-			text-align: center;
-			color: $charcoal;
-		}
-		.link-to-resources {
-			margin-top: 2em;
-			text-align: center;
-			color: $dark-blue;
+	}
+}
+
+.resources-container {
+	padding: 10em 0 5em;;
+	.thumbnail {
+		max-width: 30em;
+		padding: 1em;
+		margin: 1em auto;
+		overflow: hidden;
+		img {
+			width: 92%;
 		}
 	}
+	h2 {
+		@include title;
+	}
+	p {
+		@include p;
+	}
+	.resource-date {
+		color: $dark-grey;
+	}
+	h4 {
+		@include subtitle;
+	}
+	.link-to-resource {
+		text-align: center;
+		color: $charcoal;
+	}
+	.link-to-resources {
+		margin-top: 2em;
+		text-align: center;
+		color: $dark-blue;
+	}
+}
+
+@media (max-width: 768px) {
+	.resources-container {
+		padding: 3em 0 3em;;
+		.col-xs-12 {
+			padding: 0;
+		}
+	}
+}

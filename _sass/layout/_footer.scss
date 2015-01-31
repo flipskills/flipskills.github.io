@@ -126,15 +126,10 @@
 	
 }
 
-
-/**
- * Footer
- */
-
 @media (max-width: 768px) {
 	.site-footer {
 		.connect-wrapper {
-			padding: 3em 0;
+			padding: 3em 0 2em;
 			border-bottom: none;
 			h3 {
 				text-align: center;
@@ -148,20 +143,25 @@
 			}
 			form {
 				input {
-					padding: .8em;
-					margin: 1em 0;
+					padding: .5em;
+					margin: 0.3em 0;
 				}
 			}
 		}
 		.contact-us-wrapper {
+			padding: 0 0 3em;
 			.address-wrapper {
 				text-align: center;
 				padding-bottom: 3em;
 			}
 			.form-wrapper {
+				padding: 0;
+				div {
+					padding: 0;
+				}
 				input, textarea, .button {
-					padding: .8em;
-					margin: 1em 0;
+					padding: .5em;
+					margin: 0.3em 0;
 				}
 				p {
 					letter-spacing: 0.05em;

@@ -161,7 +161,7 @@
 				padding-left: 15px;
 			}
 			.navbar {
-				height: 6em;
+				height: 4em;
 				a {
 					margin-bottom: 0;
 					#menu {
@@ -176,10 +176,13 @@
 				.navbar-collapse {
 			        padding-right: 15px;
 					padding-left: 15px;
+					position: relative;
+					top: -1.3em;
+					border-top: none;
 			    }
 				.navbar-brand {
 					#logo {
-						width: 4em;
+						width: 6em;
 						content:url(../images/logo/logo.png);
 					}
 				}

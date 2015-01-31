@@ -51,9 +51,13 @@
 
 @media (max-width: 768px) {
 	.endorsements-section {
-		padding: 2em 0;
+		padding: 3em 0;
 		background-image: none;
+		.endorsement {
+			padding: 0;
+		}
 		p {
+			padding: 0;
 		}
 		#author {
 			margin-bottom: 0;
