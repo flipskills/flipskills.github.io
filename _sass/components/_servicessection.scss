@@ -1,0 +1,61 @@
+/**
+ * Services Section
+ */
+
+@import "../base/reset";
+
+.our-services-section {
+	padding: 5em 0;
+	border-top: 0.1em $light-grey solid;
+	font-family: $gill;
+	h2 {
+		@include title;
+	}
+	p {
+		@include p;
+		margin-bottom: 2.7em;
+	}
+	h4 {
+		@include subtitle;
+	}
+	.inverse {
+		text-align: right;
+	}
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	button {
+		@include button;
+	}
+}
+
+@media (max-width: 992px) {
+	.our-services-section {
+		p {
+			margin-bottom: 4em;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.our-services-section {
+		padding: 2em 0;
+		.inverse {
+			text-align: left;
+		}
+		h2 {
+			margin-bottom: 1em;
+		}
+		p {
+			margin: 1em 0;
+			text-align: justify;
+		}
+		#puzzle {
+			padding-bottom: 1.5em;
+		}
+		#puzzle2 {
+			padding-top: 1.5em;
+		}
+	}
+}

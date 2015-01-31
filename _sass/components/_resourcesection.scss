@@ -1,0 +1,40 @@
+/**
+ * Resource Section
+ */
+
+@import "../base/reset";
+
+.resources-section {
+	padding: 5em 0;
+	border-top: 0.1em $light-grey solid;
+	.thumbnail {
+		max-width: 30em;
+		padding: 1em;
+		margin: 1em auto;
+		overflow: hidden;
+		img {
+			width: 92%;
+		}
+	}
+	h2 {
+		@include title;
+	}
+	p {
+		@include p;
+	}
+	.resource-date {
+		color: $dark-grey;
+	}
+	h4 {
+		@include subtitle;
+	}
+	.link-to-resource {
+		text-align: center;
+		color: $charcoal;
+	}
+	.link-to-resources {
+		margin-top: 2em;
+		text-align: center;
+		color: $dark-blue;
+	}
+}

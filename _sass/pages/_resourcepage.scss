@@ -1,4 +1,10 @@
-@import "base";
+/**
+ * Resource Page
+ */
+
+
+@import "../base/reset";
+
 
 .overlay-header {
 	background: white;
@@ -45,44 +51,6 @@
 		}
 	}
 }
-.ideasletter {
-	padding: 8em 0;
-	.ideasletter-header {
-		margin: 1em 0;
-		img {
-			width: 100%;
-		}
-	}
-	h1 {
-		color: $blue;
-		text-align: center;
-		font-size: 2em;
-	}
-	h3 {
-		background-color: $dark-blue;
-		color: white;
-		font-size: 1.2em;
-		padding: 0.3em;
-	}
-	ol {
-		list-style: none;
-	}
-	li {
-		p , ul, ol {
-			padding-left: 2em;
-		}
-	}
-	h4 {
-		font-size: 1.2em;
-		color: $blue;
-	}
-	.inlineimage {
-		padding: 1em;
-		width: 13em;
-		float: right;
-	}
-}
-
 
 .resources-container {
 		padding: 10em 0 5em;;

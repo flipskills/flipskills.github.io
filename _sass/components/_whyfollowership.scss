@@ -1,0 +1,45 @@
+/**
+ * Why Followership Section
+ */
+
+@import "../base/reset";
+
+.why-followership-section {
+	padding: 5em 0;
+	border-top: 0.1em $light-grey solid;
+	h2 {
+		@include title;
+	}
+	p {
+		@include p;
+	}
+	h5 {
+		@include emphasize;
+	}
+	img {
+		z-index: -1;
+		position: relative; 
+	 		width: 100%;
+	}
+	.text-wrapper {
+		position: absolute;
+		top: 12em;
+	}
+}
+
+@media (max-width: 768px) {
+	
+	.why-followership-section {
+		padding: 2em 0;
+		h2 {
+			margin-bottom: 1em;
+		}
+		h5 {
+			text-align: center;
+		} 
+		.text-wrapper {
+			position: relative;
+			top: 0em;
+		}
+	}
+}

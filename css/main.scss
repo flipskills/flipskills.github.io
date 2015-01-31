@@ -3,10 +3,23 @@
 ---
 @charset "utf-8";
 
-@import "base",
-		"header",
-		"footer",
-        "layout",
-        "resources",
-        "transitions",
-        "mobile";
+// Base imports
+@import "base/reset",
+		"base/colour",
+		"base/typography",
+
+// Layout imports
+		"layout/header",
+		"layout/footer",
+
+// pages imgports
+        "pages/ideasletter",
+        "pages/resourcepage",
+
+// components imports
+        "components/booksection",
+        "components/endorsements",
+        "components/meetussection",
+        "components/resourcesection",
+        "components/servicessection",
+        "components/whyfollowership";
