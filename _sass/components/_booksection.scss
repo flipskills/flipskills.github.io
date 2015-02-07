@@ -18,6 +18,8 @@
 }
 .book-section {
 	padding: 0 0 3em;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
 	text-align: justify;
 	p {
 		@include p;
@@ -83,6 +85,33 @@
 				margin-top: 0.5em;
 				padding: .5em;
 			}
+		}
+	}
+}
+.upcoming-book-events {
+	text-align: center;
+	height: 100%;
+	a {
+		@include a;
+		color: $dark-blue;
+		&:hover {
+			color: $blue;
+		}
+	}
+	p {
+		padding: 1em 0 0;
+		color: $dark-blue;
+		font-size: 1.1em;
+	}
+	img {
+		width: 2em;
+	}
+}
+
+@media (max-width: 768px) {
+	.upcoming-book-events {
+		p {
+			font-size: 1em;
 		}
 	}
 }

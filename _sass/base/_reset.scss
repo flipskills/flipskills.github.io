@@ -72,9 +72,6 @@ img {
     vertical-align: middle;
 }
 
-
-
-
 /**
  * Links
  */
@@ -100,4 +97,9 @@ img {
         display: table;
         clear: both;
     }
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }

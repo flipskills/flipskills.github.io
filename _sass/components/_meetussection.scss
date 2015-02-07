@@ -6,6 +6,8 @@
 
 .meet-us-section {
 	padding: 5em 0;
+	padding-right: 0 !important;
+    padding-left: 0 !important;
 	border-top: 0.1em $light-grey solid;
 	h2 {
 		@include title;
