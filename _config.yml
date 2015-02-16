@@ -11,8 +11,7 @@ address: > # this means to ignore newlines until "url:"
   Toronto, ON
   Canada
 
-url: "http://nataliabaltazar.me"
-baseurl: "/LIHTS"
+url: "http://flipskills.github.io"
 
 # Build settings
 markdown: kramdown
