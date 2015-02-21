@@ -5,12 +5,10 @@
 @import "../base/reset";
 
 .subtitle {
-	padding: 3em 0;
+	padding: 1em 0;
 	h6 {
 		@include subtitle;
-		text-align: justify;
 		line-height: 1.3em;
-		padding: 0px 1em;
 		span {
 			font-weight: bold;
 		}
@@ -41,6 +39,9 @@
 @media (max-width: 992px) {
 	.subtitle {
 		padding: 9em 0 0;
+		h6{
+			text-align: center;
+		}
 		p {
 			padding: 2em;
 			span {
