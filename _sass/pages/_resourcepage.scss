@@ -97,6 +97,7 @@
 		padding: 1em;
 		margin: 1em auto;
 		overflow: hidden;
+		height: 38em;
 		img {
 			width: 92%;
 		}
@@ -124,9 +125,20 @@
 	}
 }
 
+@media (max-width: 992px) {
+	.resources-container {
+		.thumbnail {
+			height: 45em;
+		}
+	}
+}
+
 @media (max-width: 768px) {
 	.resources-container {
-		padding: 3em 0 3em;;
+		padding: 3em 0 3em;
+		.thumbnail {
+			height: 44em;
+		}
 		.col-xs-12 {
 			padding: 0;
 		}
