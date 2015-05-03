@@ -28,8 +28,6 @@ introduction: "<p>We recently unearthed two awesome quotes by James MacGregor Bu
 		
 		<p>However, this isn't 1978.</p>
 
-		<p>Yes indeed, you heard right...1978!</p>
-
 		<p>Let us take you back... In 1978 we were nearing the end of the Jimmy Carter presidency and Pierre Trudeau's first eleven years in office, and the beginning of the Margaret Thatcher era. Inflation was in double digits. Average monthly rent was $280 while a Sony Walkman was $200. Leg warmers, the Bee Gees, and McDonald's new happy meal were a big deal. It was 10 years before we had the internet. The Millennials now entering the workforce weren't even born yet.</p>
 
 		<p>Times have changed since then. In fact, work and organizations have completely changed.
@@ -57,14 +55,14 @@ introduction: "<p>We recently unearthed two awesome quotes by James MacGregor Bu
 				<h4>Work is competitive</h4>
 				<p>Organizations and jobs require active, engaged, creative and thoughtful followership to meet ever-increasing demands while remaining competitive.</p>
 			</li>
-
-			<li>
 			
 		</ul>
 		 
 		<p>We don't have time for anyone to transform us!</p>
 
 		<img class="inlineimage" src="{{ site.url }}{{ site.baseurl }}/images/ideasletter/plasticman.jpg"><p>Imagine if everybody you worked for right now tried to transform you in some way. You'd have to be the comic-book superhero Plastic Man to cope with all that stretching, pulling, inspiring, and stimulating! The problem is that transformational leadership requires a fairly rigid hierarchy, a static leadership role, longevity of roles, and relatively routine work to be effective.</p>
+
+		<p>The other problem is that with today's mindset and lens, the notion of a leader transforming us and needing to motivate us feels patronizing. It doesn't make sense for highly complex, collaborative work to ask employees to be fully engaged, creative and critical thinking partners on the one hand, but conceive of the leadership role as transformational on the other.</p>
  
 		<p>We need a 21st century theory of leadership - one that supports interpersonal change, one that supports collaboration, one that supports innovation and efficiency, and one that recognizes that everybody leads and needs leadership skill AND everybody follows and needs followership skill. The two roles are equal, dynamic and different.</p>
 
