@@ -1,8 +1,8 @@
 ---
 layout: ideasletter
-title:  “I Haven’t Got Time For You To Transform Me!”
+title:  I Haven’t Got Time For You To Transform Me!
 date:   2015-04-30 21:35:51
-vol:   “April 2015 - Vol 6, Issue 4”
+vol:   April 2015 - Vol 6, Issue 4
 categories: ideasletter
 img: /images/ideasletter/transformer.jpg
 introduction: "<p>We recently unearthed two awesome quotes by James MacGregor Burns, the creator of Transformational Leadership, inspiring this month's ideasletter.</p><p>May all your partnerships be generative!</p><p>Marc & Samantha</p><br><p><i>Leadership Is Half The Story</i> available now in bookstores and online bookstores all over.</p><br><p>Upcoming Events:</p><ul><li>May 1 Visionary Leadership Series Kitchener</li><li>May 13 Leadership Development Summit, Conference Board of Canada</li><li>May 16-18 ATD ICE Conference Orlando</li><li>May 27 Webinar International Leadership Association</li></ul>"
