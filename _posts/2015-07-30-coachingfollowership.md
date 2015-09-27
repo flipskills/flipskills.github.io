@@ -2,7 +2,7 @@
 layout: ideasletter
 title:  Coaching For Followership
 date:   2015-07-30 21:35:51
-vol:   April 2015 - Vol 6, Issue 5
+vol:   April 2015 - Vol 6, Issue 6
 categories: ideasletter
 img: /images/ideasletter/coachingfollowership.jpg
 introduction: "<p>Hope your summer is going swimmingly!</p><p>Samantha & Marc</p><br><p><i>Leadership Is Half The Story</i> available now in bookstores and online bookstores all over.</p><br><p>Events and projects for the fall and winter will be updated in the next ideas letter. Stay tuned.</p>"
@@ -66,7 +66,7 @@ introduction: "<p>Hope your summer is going swimmingly!</p><p>Samantha & Marc</p
 		</ul>
 
 		<br>
-		
+
 		<p>3. Share best practices. Research into followership has yielded best practices that work. We share lots of these in our new book, Leadership Is Half The Story: A Fresh Look at Followership, Leadership and Collaboration.</p>
 
 		<p>4. Encourage use of the Platinum Rule: Treat others the way they want to be treated. Have your coachee discuss how they apply the Platinum Rule, and ways they might apply it even more effectively. How are they clarifying and confirming how others want to be treated?</p>
