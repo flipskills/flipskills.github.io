@@ -2,7 +2,7 @@
 layout: ideasletter
 title:  Coaching For Followership
 date:   2015-07-30 21:35:51
-vol:   April 2015 - Vol 6, Issue 6
+vol:   July 2015 - Vol 6, Issue 6
 categories: ideasletter
 img: /images/ideasletter/coachingfollowership.jpg
 introduction: "<p>Hope your summer is going swimmingly!</p><p>Samantha & Marc</p><br><p><i>Leadership Is Half The Story</i> available now in bookstores and online bookstores all over.</p><br><p>Events and projects for the fall and winter will be updated in the next ideas letter. Stay tuned.</p>"
