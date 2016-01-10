@@ -90,7 +90,7 @@
 	}
 }
 
-.resources-container {
+.resources-container, .workshops-container {
 	padding: 10em 0 5em;
 	.thumbnail {
 		max-width: 30em;
@@ -122,6 +122,23 @@
 		margin-top: 2em;
 		text-align: center;
 		color: $dark-blue;
+	}
+}
+
+.workshops-container {
+	h3 {
+		margin-top: 3em;
+		color: $blue;
+	}
+	h5 {
+		margin-top: 2em;
+		color: $light-blue;
+	}
+	ul {
+		padding-left: 6em;
+	}
+	.gain-points ul {
+		padding-left: 2em;
 	}
 }
 
