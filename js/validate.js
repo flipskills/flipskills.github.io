@@ -50,7 +50,7 @@
         submitHandler: function(form) {
         $.ajax({
             dataType: "jsonp",
-            url: "http://getsimpleform.com/messages/ajax?form_api_token=4c8d34126c52221ab241246ba0712e3e",
+            url: "http://getsimpleform.com/messages/ajax?form_api_token=2f66b7bf00b68a27709726a7bbe419d7",
             data: $(".subscribe-form").serialize()
         }).done(function() {
             $(".subscribe-error").hide();
