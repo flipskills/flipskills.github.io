@@ -25,11 +25,11 @@
 		padding: 0.3em;
 	}
 	ol {
-		list-style: none;
+		margin-left: 1em;
 	}
 	li {
 		p , ul, ol {
-			padding-left: 2em;
+			padding-left: 1em;
 		}
 	}
 	h4 {
@@ -40,6 +40,32 @@
 		padding: 1em;
 		width: 13em;
 		float: right;
+	}
+
+	table {
+		margin-bottom: 1em;
+
+	}
+
+	td, th {
+		border-left: 1px $grey solid;
+		padding: 0.5em 1em;
+
+		&:first-of-type {
+			border: none
+		}
+	}
+
+	thead {
+		border-bottom: 1px $grey solid;
+	}
+
+	tr {
+		border-bottom: 1px $grey solid;
+
+		&:first-of-type {
+			border: none
+		}
 	}
 }
 
