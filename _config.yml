@@ -17,3 +17,27 @@ url: "http://flipskills.github.io"
 markdown: kramdown
 sass:
   style: compressed
+
+prose:
+  metadata:
+    _posts:
+        - name: "layout"
+            field:
+                value: "ideasletter"
+        - name: "title"
+        - name: "date"
+            field:
+                value: "yyyy-mm-dd hh-mm-ss"
+        - name: "vol"
+            field:
+                value: "Jan 2017 - Vol 1, Issue 1"
+        - name: "categories"
+            field:
+                value: "ideasletter"
+        - name: "img"
+            field:
+                value: "/images/ideasletter/default.png"
+        - name: "introduction"
+        - name: "published"
+            field:
+                value: "true"
