@@ -1,7 +1,7 @@
 ---
 published: false
 layout: ideasletter
-date: 2015-11-01T21:35:51.000Z
+date: 2017-11-01T21:35:51.000Z
 vol: 'Nov 2015 - Vol 6, Issue 8'
 categories: ideasletter
 img: /images/ideasletter/default.png
