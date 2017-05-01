@@ -116,3 +116,13 @@ img {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.vertically-center-children {
+    display: flex;
+    align-items: center;
+}
+

@@ -58,5 +58,5 @@ prose:
       - name: "introduction"
         field:
           element: "text"
-          label: "title"
-          placeholder: "Add The Description Here"
+          label: "Introduction"
+          placeholder: "Add The Introduction Here"

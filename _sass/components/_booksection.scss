@@ -15,7 +15,9 @@
 	}
 }
 .book-section {
-	padding: 0 0 3em;
+	border-top: 0.1em $light-grey solid;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	padding-right: 0 !important;
 	padding-left: 0 !important;
 	text-align: justify;
@@ -76,7 +78,7 @@
 		}
 	}
 	.book-section {
-		padding: 0 0 3em;
+		padding: 3em 0 3em;
 		.book-description {
 			padding: 0;
 		}
