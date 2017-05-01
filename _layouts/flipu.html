@@ -1,0 +1,25 @@
+<div class="overlay-layout" id="overlay-layout">
+
+    {% include head.html %}
+
+    <header class="overlay-header container-fluid">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+            <img id="logo" alt="FlipSkills">
+            <a href="{{ site.url }}{{ site.baseurl }}/#flipu">
+                <div class="close-wrapper">
+                    <div class="close">
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <div class="page-content">
+        <div class="container-fluid">
+            {{ content }}
+        </div>
+    </div>
+
+</div>
