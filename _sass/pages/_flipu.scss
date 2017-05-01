@@ -1,42 +1,48 @@
 .flipu-container {
-	padding-bottom: 3em;
+    padding-bottom: 3em;
+
+    .button {
+        @include button;
+        text-align: center;
+        display: block;
+    }
 }
 
 .flipu-section {
-	margin: 0 auto;
-	padding: 10px 20px;
-	color: $grey;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: $grey;
 }
 
 .flipu-image-container {
-	display: block;
-	width: 100%;
-	height: auto;
-	position: relative;
-	overflow: hidden;
-	padding-bottom: 75%; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 75%; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
 }
 
 .flipu-image {
-	display: block;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .flipu-title {
-	color: $dark-grey;
+    color: $dark-grey;
 }
 
 .flipu-text ul {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 @media (max-width: 768px) {
-	.flipu-section {
-		margin-bottom: 3em;
-	}
+    .flipu-section {
+        margin-bottom: 3em;
+    }
 }
