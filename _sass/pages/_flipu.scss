@@ -23,6 +23,15 @@
     padding-bottom: 75%; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
 }
 
+.flipu-image-container-square {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
+}
+
 .flipu-image {
     display: block;
     width: 100%;
@@ -44,5 +53,20 @@
 @media (max-width: 768px) {
     .flipu-section {
         margin-bottom: 3em;
+    }
+}
+
+.flipu-page-container {
+    padding: 10em 0 5em;
+
+    h2 {
+        @include title;
+    }
+    p {
+        @include p;
+    }
+
+    h3 {
+        margin-top: 0;
     }
 }
