@@ -2,7 +2,7 @@
 layout: ideasletter
 title:  You Are Never Too Full For Appreciation
 date:   2015-09-30 21:35:51
-vol:   Sept 2015 - Vol 6, Issue 7
+vol:   Vol 6, Issue 7
 categories: ideasletter
 img: /images/ideasletter/appreciation.jpg
 introduction: "<p>Recently I looked up the traditional and modern gift for a seventh wedding anniversary, as that is what Marc and I just celebrated. The answer, by the way, is copper, wool, or a desk set (seriously). In my search, an article popped up, The Secrets to a Great Marriage, so I mentioned it to Marc. He replied that he already knew the secrets and that there were only two: one, marry the right person and; two, appreciate the heck out of them. And that is why it's been an awesome seven years!</p><p>This month's ideasletter explores the idea of appreciation in our workplaces as an evolution of the concept of recognition.</p><p>With Appreciation, </p><p>Samantha & Marc</p><br><p><i>Leadership Is Half The Story</i> available now in bookstores and online bookstores all over.</p>"

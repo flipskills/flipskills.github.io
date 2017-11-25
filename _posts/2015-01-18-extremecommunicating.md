@@ -1,7 +1,7 @@
 ---
 layout: ideasletter
 title:  "Extreme Communicating & Book Launch Information"
-vol:   "Jan 2015 - Vol 6, Issue 1"
+vol:   "Vol 6, Issue 1"
 date:   2015-01-18 21:35:51
 categories: ideasletter
 img: /images/ideasletter/extremecommunication.jpg
