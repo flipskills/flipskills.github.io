@@ -2,7 +2,7 @@
 layout: ideasletter
 title:  "Conflaboration: The five causes and what to do about it"
 date:   2015-03-15 21:35:51
-vol:   "March 2015 - Vol 6, Issue 3"
+vol:   "Vol 6, Issue 3"
 categories: ideasletter
 img: /images/ideasletter/conflaboration.jpg
 introduction: "<p>We have certainly enjoyed our first week and a half as published authors! Lots of great buzz. We appreciate all the support, feedback and PR you all are doing. If you haven't already, follow the  facebook events page: we will update with new events...more exciting things in the works</p><p>Collaboration continues to be a top of mind topic. This ideasletter we ask: are your collaborations producing all that you hoped for? Whether yes or no, there is always capacity to take it up a notch. </p><p>May you rock your collaborations like The Beatles did!</p><p>Samantha and Marc Hurwitz</p>
